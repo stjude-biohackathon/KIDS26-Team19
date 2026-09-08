@@ -1,11 +1,11 @@
 # Team and Roles
 
-- **Team name:** [Add name]
-- **Team lead:** [Name and GitHub handle]
-- **Communication channel:** [Add link]
+- **Team name:** Team 19
+- **Team lead:** Nobel Makonnen SmartOval
+- **Communication channel:** Slack Team 19
 - **Project question/problem:** [Add one sentence]
-- **Expected output:** [Add one sentence]
-- **Tools and stack:** [Languages, libraries, notebooks, APIs, databases, services]
+- **Expected output:** R function presentation
+- **Tools and stack:** R, NCBI GEO
 
 ## Roles
 
