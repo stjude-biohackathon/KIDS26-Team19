@@ -35,8 +35,14 @@ build_temp_database <- function() {
     out
   }
 
-  run("initDb.py", c("--db-path", db_file, "--diagnosis", "aml"))
-  run("updateDb.py", c(matrices_dir, "--db-path", db_file, "--diagnosis", "aml"))
+  con <- DBI::dbConnect(duckdb::duckdb(), dbdir = db_file, read_only = TRUE)
+  sample_cols <- DBI::dbGetQuery(con, "DESCRIBE samples")$column_name
+  expect_true("series_accession" %in% sample_cols)
+  expect_true("series_pubmed_id" %in% sample_cols)
+  expect_true("sample_geo_accession" %in% sample_cols)
+  expect_true("sample_characteristics_ch1" %in% sample_cols)
+  expect_true("sample_molecule_ch1" %in% sample_cols)
+  expect_false("SeriesAccession" %in% sample_cols)
 
   list(work = work, db_file = db_file)
 }

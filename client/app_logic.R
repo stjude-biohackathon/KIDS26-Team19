@@ -7,11 +7,8 @@ default_db_path <- function(repo_root) file.path(repo_root, "data", "geo.db")
 REQUIRED_TABLES <- c("diagnosis", "dataset", "sample")
 
 SAMPLES_TABLE_COLUMNS <- c(
-  "diagnosis_name",
-  "series_geo_accession",
-  # Matrix filenames are authoritative for multi-platform studies.  The
-  # fallback keeps older databases usable when their header repeated one GPL.
-  "COALESCE(NULLIF(regexp_extract(d.source_file, '(?:^|-)GPL([0-9]+)(?:_series_matrix|$)', 1), ''), series_platform_id) AS series_platform_id",
+  "series_accession",
+  "series_platform_id",
   "series_pubmed_id",
   "sample_geo_accession",
   "sample_organism_ch1",
