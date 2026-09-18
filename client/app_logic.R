@@ -16,6 +16,7 @@ SAMPLES_TABLE_COLUMNS <- c(
   "sample_data_row_count",
   "treatment",
   "control",
+  "drug",
   "sample_molecule_ch1"
 )
 
@@ -29,6 +30,7 @@ samples_table_column_labels <- c(
   "Row count",
   "Treatment",
   "Control",
+  "Drug",
   "Sample molecule"
 )
 
@@ -43,6 +45,7 @@ SAMPLES_TABLE_SELECT <- paste(
   "s.sample_data_row_count,",
   "s.treatment,",
   "s.control,",
+  "s.drug,",
   "s.sample_molecule_ch1",
   "FROM sample s",
   "JOIN dataset d ON d.dataset_id = s.dataset_id",
@@ -58,6 +61,7 @@ samples_table_schema_ok <- function(connection) {
     "sample_geo_accession",
     "treatment",
     "control",
+    "drug",
     "sample_molecule_ch1"
   )
   missing <- setdiff(required, cols)

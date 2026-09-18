@@ -536,7 +536,22 @@ run_geo_pipeline <- function(input = "GSE_Metadata_Inventory.xlsx",
   discovered <- NULL
   if (is.null(query_strings)) {
     if (!requireNamespace("readxl", quietly = TRUE)) stop("Install readxl for Excel input.")
-    metadata <- as.data.frame(readxl::read_excel(input, sheet = "Metadata"))
+    sheets <- readxl::excel_sheets(input)
+    # Accept the inventory workbook produced by heme_cancer_geo.py. It stores
+    # study/sample rows across cancer tabs and calls the accession column GSE.
+    sheet <- if ("Metadata" %in% sheets) "Metadata" else NULL
+    if (is.null(sheet)) {
+      usable <- setdiff(sheets, c("README", "Study_Index", "Export_Notes"))
+      if (!length(usable)) stop("Workbook has no metadata sheets.")
+      parts <- lapply(usable, function(s) as.data.frame(readxl::read_excel(input, sheet = s)))
+      metadata <- do.call(rbind, lapply(parts, function(x) {
+        if ("GSE" %in% names(x) && !("SeriesAccession" %in% names(x))) x$SeriesAccession <- x$GSE
+        if ("StudyTitle" %in% names(x) && !("SeriesTitle" %in% names(x))) x$SeriesTitle <- x$StudyTitle
+        if ("PubMedIDs" %in% names(x) && !("PubMedID" %in% names(x))) x$PubMedID <- x$PubMedIDs
+        if ("SeriesSampleCount" %in% names(x) && !("SampleCount" %in% names(x))) x$SampleCount <- x$SeriesSampleCount
+        x
+      }))
+    } else metadata <- as.data.frame(readxl::read_excel(input, sheet = sheet))
     source_name <- basename(input)
   } else {
     search <- discover_geo_by_keywords(query_strings, keywords, max_studies_per_query,
