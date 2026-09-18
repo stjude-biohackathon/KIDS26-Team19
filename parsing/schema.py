@@ -39,7 +39,7 @@ HEADER_SAMPLE_KEYS = (
     "Sample_data_row_count",
     "Sample_molecule_ch1",
 )
-DERIVED_SAMPLE_COLUMNS = ("treatment", "control")
+DERIVED_SAMPLE_COLUMNS = ("treatment", "control", "drug")
 
 SERIES_KEYS = tuple(k for k in WANTED_KEYS if k.startswith("Series_"))
 
@@ -198,6 +198,8 @@ def _is_control_like_value(value):
         return True
     if "control" in norm:
         return True
+    if "ctrl" in norm:
+        return True
     return _is_excluded_treatment_value(value)
 
 
@@ -278,6 +280,134 @@ def derive_treatment_control_from_cell(cell_value: str | None) -> tuple[str | No
         extract_treatment_from_characteristics(rows, 1)[0],
         extract_control_from_characteristics(rows, 1)[0],
     )
+
+
+_DOSAGE_UNIT = r"\d+(?:\.\d+)?\s*(?:µM|μM|uM|nM|pM|mM)\s+"
+_DOSAGE_PREFIX = re.compile(
+    r"^\s*" + _DOSAGE_UNIT + r"(.+)$",
+    re.IGNORECASE,
+)
+_DOSAGE_INLINE = re.compile(_DOSAGE_UNIT, re.IGNORECASE)
+_DRUG_TOKEN_AFTER_DOSAGE = re.compile(r"([^,+]+)")
+_DOSAGE_LEADING = re.compile(r"^\s*" + _DOSAGE_UNIT, re.IGNORECASE)
+_INHIBITOR_IN_TEXT = re.compile(r"(?i)(.+?)\s+inhibitor\b")
+_DURATION_PREFIX = re.compile(
+    r"^\s*\d+(?:\.\d+)?\s*(?:hr|hrs|h|min|mins|minutes|day|days)\s+",
+    re.IGNORECASE,
+)
+
+
+def _strip_leading_duration(text: str) -> str:
+    text = text.strip()
+    while text:
+        match = _DURATION_PREFIX.match(text)
+        if not match:
+            break
+        text = text[match.end() :].strip()
+    return text
+
+
+def _is_duration_only_prefix(prefix: str) -> bool:
+    return not _strip_leading_duration(prefix.strip())
+
+
+def _strip_leading_dosage(name: str) -> str:
+    text = name.strip()
+    while text:
+        match = _DOSAGE_LEADING.match(text)
+        if not match:
+            break
+        text = text[match.end() :].strip()
+    return text
+
+
+def _inhibitor_drug_labels(text: str) -> list[str]:
+    stripped = text.strip()
+    if not stripped:
+        return []
+    labels: list[str] = []
+    for match in _INHIBITOR_IN_TEXT.finditer(stripped):
+        target = match.group(1).strip().lstrip("+").strip()
+        target = _strip_leading_dosage(target)
+        if not target:
+            continue
+        label = f"{target} inhibitor"
+        if label not in labels:
+            labels.append(label)
+    return labels
+
+
+def _drug_from_inhibitor_suffix(text: str) -> str | None:
+    labels = _inhibitor_drug_labels(text)
+    return labels[0] if labels else None
+
+
+def _merge_drug_parts(parts: list[str], extra: str | None) -> list[str]:
+    if not extra or extra in parts:
+        return parts
+    return parts + [extra]
+
+
+def _label_part_drug(part: str) -> str:
+    part = part.strip()
+    if not part:
+        return part
+    labels = _inhibitor_drug_labels(part)
+    if labels:
+        return labels[0]
+    return part
+
+
+def _collect_drugs_from_segment(segment: str) -> list[str]:
+    """Split a post-leading-dosage name segment into one or more drug names."""
+    segment = segment.strip()
+    if not segment:
+        return []
+    match = _DOSAGE_INLINE.search(segment)
+    if not match:
+        segment = segment.rstrip("+").strip()
+        if "+" in segment:
+            parts = [part.strip() for part in re.split(r"\s*\+\s*", segment)]
+            return [_label_part_drug(part) for part in parts if part.strip()]
+        labeled = _label_part_drug(segment)
+        return [labeled] if labeled else []
+    prefix = segment[: match.start()]
+    rest = segment[match.end() :]
+    token_match = _DRUG_TOKEN_AFTER_DOSAGE.match(rest)
+    if not token_match:
+        return _collect_drugs_from_segment(prefix)
+    drug_token = token_match.group(1).strip()
+    tail = rest[token_match.end() :]
+    drugs: list[str] = []
+    if prefix.strip() and not _is_duration_only_prefix(prefix):
+        drugs.extend(_collect_drugs_from_segment(prefix))
+    if drug_token:
+        drugs.append(_label_part_drug(drug_token))
+    drugs.extend(_collect_drugs_from_segment(tail.lstrip()))
+    return drugs
+
+
+def extract_drug_from_treatment(treatment: str | None) -> str | None:
+    """Derive drug name from a parsed treatment string."""
+    if treatment is None or not str(treatment).strip():
+        return None
+    text = str(treatment).strip()
+    if " " not in text:
+        return text
+    text = _strip_leading_duration(text)
+    name_part_comma = _strip_leading_duration(text.split(",", 1)[0].strip())
+    parts: list[str] = []
+    match = _DOSAGE_PREFIX.match(text)
+    if match:
+        name = match.group(1).strip()
+        if "," in name:
+            name = name.split(",", 1)[0].strip()
+        parts = _collect_drugs_from_segment(name)
+    elif _DOSAGE_INLINE.search(name_part_comma):
+        parts = _collect_drugs_from_segment(name_part_comma)
+    for label in _inhibitor_drug_labels(name_part_comma):
+        parts = _merge_drug_parts(parts, label)
+    return ", ".join(parts) if parts else None
 
 
 def create_schema(con) -> None:
@@ -396,7 +526,9 @@ def parse_matrix(path: str, diagnosis_id: int, strict: bool = False):
         header_part = tuple(
             _cast(KEY_COLUMNS[key], header_columns[key][i]) for key in HEADER_SAMPLE_KEYS
         )
-        sample_rows.append(header_part + (treatments[i], controls[i]))
+        treatment = treatments[i]
+        drug = extract_drug_from_treatment(treatment)
+        sample_rows.append(header_part + (treatment, controls[i], drug))
     return dataset_row, sample_rows
 
 
