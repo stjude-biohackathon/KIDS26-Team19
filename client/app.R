@@ -96,11 +96,11 @@ server <- function(input, output, session) {
       validate(need(FALSE, paste0("Could not read samples:\n", query_error())))
     }
     validate(need(!is.null(tbl) && nrow(tbl) > 0L, "No sample rows to display."))
-    characteristics_idx <- which(names(tbl) == "sample_characteristics_ch1") - 1L
+    treatment_idx <- which(names(tbl) == "treatment") - 1L
     column_defs <- list()
-    if (length(characteristics_idx) == 1L && characteristics_idx >= 0L) {
+    if (length(treatment_idx) == 1L && treatment_idx >= 0L) {
       column_defs <- list(
-        list(width = "320px", targets = characteristics_idx)
+        list(width = "320px", targets = treatment_idx)
       )
     }
     datatable(

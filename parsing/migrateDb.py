@@ -4,6 +4,7 @@
 
 The migration preserves diagnosis, dataset, and sample rows while replacing the
 dataset table constraint with source-file uniqueness, allowing multi-GPL studies.
+Sample rows gain treatment/control derived from legacy sample_characteristics_ch1 when present.
 """
 from __future__ import annotations
 
@@ -13,7 +14,7 @@ import tempfile
 
 import duckdb
 
-from schema import create_schema
+from schema import create_schema, derive_treatment_control_from_cell
 
 
 def migrate(db_path: str) -> None:
@@ -40,17 +41,33 @@ def migrate(db_path: str) -> None:
             JOIN old.diagnosis odg ON odg.diagnosis_id = od.diagnosis_id
             JOIN diagnosis nd ON nd.diagnosis_name = odg.diagnosis_name
         """)
-        target.execute("""
-            INSERT INTO sample (dataset_id, diagnosis_id, sample_geo_accession,
-                                sample_organism_ch1, sample_data_row_count,
-                                sample_characteristics_ch1, sample_molecule_ch1)
+        old_sample_cols = {row[0] for row in target.execute("DESCRIBE old.sample").fetchall()}
+        has_legacy_chars = "sample_characteristics_ch1" in old_sample_cols
+        char_select = (
+            "os.sample_characteristics_ch1"
+            if has_legacy_chars
+            else "CAST(NULL AS VARCHAR)"
+        )
+        sample_rows = target.execute(f"""
             SELECT nd.dataset_id, nd.diagnosis_id, os.sample_geo_accession,
                    os.sample_organism_ch1, os.sample_data_row_count,
-                   os.sample_characteristics_ch1, os.sample_molecule_ch1
+                   {char_select}, os.sample_molecule_ch1
             FROM old.sample os
             JOIN old.dataset od ON od.dataset_id = os.dataset_id
             JOIN dataset nd ON nd.source_file = od.source_file
-        """)
+        """).fetchall()
+        for dataset_id, diag_id, gsm, org, row_count, chars, molecule in sample_rows:
+            treatment, control = derive_treatment_control_from_cell(chars)
+            target.execute(
+                """
+                INSERT INTO sample (
+                    dataset_id, diagnosis_id, sample_geo_accession,
+                    sample_organism_ch1, sample_data_row_count,
+                    treatment, control, sample_molecule_ch1
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                [dataset_id, diag_id, gsm, org, row_count, treatment, control, molecule],
+            )
         target.close()
         source.close()
         os.replace(replacement, db_path)
