@@ -8,15 +8,14 @@ REQUIRED_TABLES <- c("diagnosis", "dataset", "sample")
 
 SAMPLES_TABLE_COLUMNS <- c(
   "diagnosis_name",
-  "series_geo_accession",
-  # Matrix filenames are authoritative for multi-platform studies.  The
-  # fallback keeps older databases usable when their header repeated one GPL.
-  "COALESCE(NULLIF(regexp_extract(d.source_file, '(?:^|-)GPL([0-9]+)(?:_series_matrix|$)', 1), ''), series_platform_id) AS series_platform_id",
+  "series_accession",
+  "series_platform_id",
   "series_pubmed_id",
   "sample_geo_accession",
   "sample_organism_ch1",
   "sample_data_row_count",
-  "sample_characteristics_ch1",
+  "treatment",
+  "control",
   "sample_molecule_ch1"
 )
 
@@ -28,12 +27,23 @@ samples_table_column_labels <- c(
   "Sample",
   "Organism",
   "Row count",
-  "Sample characteristics",
+  "Treatment",
+  "Control",
   "Sample molecule"
 )
 
-SAMPLES_TABLE_QUERY <- paste(
-  "SELECT", paste(SAMPLES_TABLE_COLUMNS, collapse = ", "),
+SAMPLES_TABLE_SELECT <- paste(
+  "SELECT",
+  "g.diagnosis_name,",
+  "d.series_geo_accession AS series_accession,",
+  "d.series_platform_id,",
+  "d.series_pubmed_id,",
+  "s.sample_geo_accession,",
+  "s.sample_organism_ch1,",
+  "s.sample_data_row_count,",
+  "s.treatment,",
+  "s.control,",
+  "s.sample_molecule_ch1",
   "FROM sample s",
   "JOIN dataset d ON d.dataset_id = s.dataset_id",
   "JOIN diagnosis g ON g.diagnosis_id = s.diagnosis_id"
@@ -41,6 +51,18 @@ SAMPLES_TABLE_QUERY <- paste(
 
 SAMPLES_TABLE_ORDER <-
   "ORDER BY diagnosis_name, series_geo_accession, sample_geo_accession"
+
+samples_table_schema_ok <- function(connection) {
+  cols <- DBI::dbGetQuery(connection, "DESCRIBE sample")$column_name
+  required <- c(
+    "sample_geo_accession",
+    "treatment",
+    "control",
+    "sample_molecule_ch1"
+  )
+  missing <- setdiff(required, cols)
+  list(ok = length(missing) == 0L, columns = cols, missing = missing)
+}
 
 #' Open the persistent database read-only, or NULL if it is missing or unbuilt.
 connect_geo_database <- function(db_path) {
@@ -62,6 +84,11 @@ connect_geo_database <- function(db_path) {
     DBI::dbDisconnect(con, shutdown = TRUE)
     return(NULL)
   }
+  schema <- samples_table_schema_ok(con)
+  if (!schema$ok) {
+    DBI::dbDisconnect(con, shutdown = TRUE)
+    return(NULL)
+  }
   con
 }
 
@@ -76,11 +103,14 @@ list_diagnoses <- function(connection) {
 #' Sample rows joined to dataset and diagnosis; diagnosis = NULL returns every row.
 fetch_samples_table <- function(connection, diagnosis = NULL) {
   if (is.null(diagnosis) || !nzchar(diagnosis)) {
-    return(DBI::dbGetQuery(connection, paste(SAMPLES_TABLE_QUERY, SAMPLES_TABLE_ORDER)))
+    return(DBI::dbGetQuery(
+      connection,
+      paste(SAMPLES_TABLE_SELECT, SAMPLES_TABLE_ORDER)
+    ))
   }
   DBI::dbGetQuery(
     connection,
-    paste(SAMPLES_TABLE_QUERY, "WHERE g.diagnosis_name = ?", SAMPLES_TABLE_ORDER),
+    paste(SAMPLES_TABLE_SELECT, "WHERE g.diagnosis_name = ?", SAMPLES_TABLE_ORDER),
     params = list(tolower(diagnosis))
   )
 }
