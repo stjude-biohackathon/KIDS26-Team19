@@ -161,3 +161,29 @@ bronze/geo/
 bronze/gpl/
 silver/expression/
 *.part
+
+# Project overrides
+#
+# The Python template block above excludes lib/ as a Python build-artifact
+# directory. This is an R project, where lib/ is a plausible location for
+# source code, so track it.
+!lib/
+# Guarantee the project's working directories are tracked regardless of a
+# contributor's global excludes. Several common ~/.gitignore_global setups
+# exclude src/, data/ and docs/, because they are generated caches in some R
+# and data-science layouts. Where that applies, those trees are silently
+# dropped for that contributor: git status reports a clean tree while the
+# pushed repository is missing the files.
+#
+# The project structure in project-management/CHECKLIST.md nominates all three,
+# so pin them here. A repository .gitignore takes precedence over
+# core.excludesFile, and the size and secret rules above still apply inside
+# them.
+# Re-include the directories only, never their contents with /**. A negation
+# on the contents would sit after the secret and large-data rules above and
+# override them, which would un-ignore .env, *.key, *.bam and *.h5ad inside
+# these trees. Un-ignoring the directory is enough: git can then descend into
+# it, and every pattern above still applies to the files it finds.
+!src/
+!data/
+!docs/
