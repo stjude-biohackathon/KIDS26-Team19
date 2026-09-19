@@ -1,0 +1,7 @@
+"GSM","Score","GSE","Platform","GenesFound","GenesExpected","SampleTitle","Characteristics","LibSize","TreatmentRaw","CellLine","Genotype","IsControl","Agent","AgentConfidence"
+"GSM7306496",3.0633956898425,"GSE231960","NCBI-counts",6,6,"RPMI_MYC_KO_DMSO_rep1","cell line: RPMI-8402 | cell type: T-ALL | treatment: DMSO | genotype: MYC_KO",33329182,"DMSO","RPMI-8402","MYC_KO",TRUE,"control","control"
+"GSM7306497",3.07010358458364,"GSE231960","NCBI-counts",6,6,"RPMI_MYC_KO_DMSO_rep2","cell line: RPMI-8402 | cell type: T-ALL | treatment: DMSO | genotype: MYC_KO",33639902,"DMSO","RPMI-8402","MYC_KO",TRUE,"control","control"
+"GSM7306498",2.96786856515603,"GSE231960","NCBI-counts",6,6,"RPMI_MYC_KO_DMSO_rep3","cell line: RPMI-8402 | cell type: T-ALL | treatment: DMSO | genotype: MYC_KO",33417262,"DMSO","RPMI-8402","MYC_KO",TRUE,"control","control"
+"GSM7306499",3.09496932331186,"GSE231960","NCBI-counts",6,6,"RPMI_MYC_KO_DOX_rep1","cell line: RPMI-8402 | cell type: T-ALL | treatment: Doxycycline | genotype: MYC_KO",33300354,"Doxycycline","RPMI-8402","MYC_KO",FALSE,"Doxycycline","high"
+"GSM7306500",3.10112686615479,"GSE231960","NCBI-counts",6,6,"RPMI_MYC_KO_DOX_rep2","cell line: RPMI-8402 | cell type: T-ALL | treatment: Doxycycline | genotype: MYC_KO",33109577,"Doxycycline","RPMI-8402","MYC_KO",FALSE,"Doxycycline","high"
+"GSM7306501",3.12658337675513,"GSE231960","NCBI-counts",6,6,"RPMI_MYC_KO_DOX_rep3","cell line: RPMI-8402 | cell type: T-ALL | treatment: Doxycycline | genotype: MYC_KO",33082755,"Doxycycline","RPMI-8402","MYC_KO",FALSE,"Doxycycline","high"

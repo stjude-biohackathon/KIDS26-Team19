@@ -1,0 +1,7 @@
+"GSM","Score","GSE","Platform","GenesFound","GenesExpected","SampleTitle","Characteristics","LibSize","TreatmentRaw","CellLine","Genotype","IsControl","Agent","AgentConfidence"
+"GSM5415402",1.47617121392308,"GSE179333","NCBI-counts",6,6,"REH DMSO 6 hours_1","cell line: REH | treatment: DMSO",18876319,"DMSO","REH",NA,TRUE,"control","control"
+"GSM5415403",1.64489205308679,"GSE179333","NCBI-counts",6,6,"REH DMSO 6 hours_2","cell line: REH | treatment: DMSO",16344168,"DMSO","REH",NA,TRUE,"control","control"
+"GSM5415404",1.58021685492842,"GSE179333","NCBI-counts",6,6,"REH DMSO 6 hours_3","cell line: REH | treatment: DMSO",13416232,"DMSO","REH",NA,TRUE,"control","control"
+"GSM5415405",1.44515874086348,"GSE179333","NCBI-counts",6,6,"REH S3I-201 50uM 6 hours_1","cell line: REH | treatment: S3I-201 50uM",17580491,"S3I-201 50uM","REH",NA,FALSE,"S3I-201","high"
+"GSM5415406",1.46236521515617,"GSE179333","NCBI-counts",6,6,"REH S3I-201 50uM 6 hours_2","cell line: REH | treatment: S3I-201 50uM",17967606,"S3I-201 50uM","REH",NA,FALSE,"S3I-201","high"
+"GSM5415407",1.38361321369906,"GSE179333","NCBI-counts",6,6,"REH S3I-201 50uM 6 hours_3","cell line: REH | treatment: S3I-201 50uM",8895526,"S3I-201 50uM","REH",NA,FALSE,"S3I-201","high"

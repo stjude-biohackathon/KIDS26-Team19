@@ -1,0 +1,614 @@
+"GSM","SampleTitle","Score","GSE","Platform","GenesFound","GenesExpected","TreatmentRaw","CellLine","Genotype","IsControl","Agent","AgentConfidence","Log2Applied"
+"GSM3427357","SAMPLE 1_CON1",4.7231982765,"GSE121175","GPL570",6,6,"vehicle for 24h","Kasumi-1",NA,TRUE,"control","control",FALSE
+"GSM3427358","SAMPLE 2_CON2",4.76572140668,"GSE121175","GPL570",6,6,"vehicle for 24h","Kasumi-1",NA,TRUE,"control","control",FALSE
+"GSM3427359","SAMPLE 3_CON3",4.6839713128,"GSE121175","GPL570",6,6,"vehicle for 24h","Kasumi-1",NA,TRUE,"control","control",FALSE
+"GSM3427360","SAMPLE 4_H1",4.8689836539,"GSE121175","GPL570",6,6,"20 nM HHT for 24h","Kasumi-1",NA,FALSE,"HHT","high",FALSE
+"GSM3427361","SAMPLE 5_H2",4.7958596758,"GSE121175","GPL570",6,6,"20 nM HHT for 24h","Kasumi-1",NA,FALSE,"HHT","high",FALSE
+"GSM3427362","SAMPLE 6_H3",4.5157700077,"GSE121175","GPL570",6,6,"20 nM HHT for 24h","Kasumi-1",NA,FALSE,"HHT","high",FALSE
+"GSM3430924","THP1_2H_DMSO_rep1",2.9272059671916,"GSE121291","GPL16043",5,6,"DMSO","AML cell line  THP-1",NA,TRUE,"control","control",FALSE
+"GSM3430925","THP1_2H_DMSO_rep2",2.84276102074,"GSE121291","GPL16043",5,6,"DMSO","AML cell line  THP-1",NA,TRUE,"control","control",FALSE
+"GSM3430926","THP1_2H_DMSO_rep3",2.8562327901122,"GSE121291","GPL16043",5,6,"DMSO","AML cell line  THP-1",NA,TRUE,"control","control",FALSE
+"GSM3430927","THP1_2H_1365_rep1",2.9927701042214,"GSE121291","GPL16043",5,6,"SY-1365","AML cell line  THP-1",NA,FALSE,"SY-1365","high",FALSE
+"GSM3430928","THP1_2H_1365_rep2",2.7475547833624,"GSE121291","GPL16043",5,6,"SY-1365","AML cell line  THP-1",NA,FALSE,"SY-1365","high",FALSE
+"GSM3430929","THP1_2H_1365_rep3",2.6559962492576,"GSE121291","GPL16043",5,6,"SY-1365","AML cell line  THP-1",NA,FALSE,"SY-1365","high",FALSE
+"GSM3430930","THP1_2H_JQ1_rep1",2.8298265283465,"GSE121291","GPL16043",5,6,"JQ1","AML cell line  THP-1",NA,FALSE,"JQ1","high",FALSE
+"GSM3430931","THP1_2H_JQ1_rep2",2.7428686229218,"GSE121291","GPL16043",5,6,"JQ1","AML cell line  THP-1",NA,FALSE,"JQ1","high",FALSE
+"GSM3430932","THP1_2H_JQ1_rep3",2.7908111781966,"GSE121291","GPL16043",5,6,"JQ1","AML cell line  THP-1",NA,FALSE,"JQ1","high",FALSE
+"GSM3430933","THP1_2H_NVP2_rep1",3.044254246384,"GSE121291","GPL16043",5,6,"NVP2","AML cell line  THP-1",NA,FALSE,"NVP2","high",FALSE
+"GSM3430934","THP1_2H_NVP2_rep2",2.7557786423542,"GSE121291","GPL16043",5,6,"NVP2","AML cell line  THP-1",NA,FALSE,"NVP2","high",FALSE
+"GSM3430935","THP1_2H_NVP2_rep3",3.0903526471045,"GSE121291","GPL16043",5,6,"NVP2","AML cell line  THP-1",NA,FALSE,"NVP2","high",FALSE
+"GSM3430936","THP1_2H_FLAVO_rep1",2.6200630578165,"GSE121291","GPL16043",5,6,"FLAVO","AML cell line  THP-1",NA,FALSE,"FLAVO","high",FALSE
+"GSM3430937","THP1_2H_FLAVO_rep2",2.6863644150356,"GSE121291","GPL16043",5,6,"FLAVO","AML cell line  THP-1",NA,FALSE,"FLAVO","high",FALSE
+"GSM3430938","THP1_2H_FLAVO_rep3",2.6589538324749,"GSE121291","GPL16043",5,6,"FLAVO","AML cell line  THP-1",NA,FALSE,"FLAVO","high",FALSE
+"GSM3430939","THP1_6H_DMSO_rep1",2.743644488948,"GSE121291","GPL16043",5,6,"DMSO","AML cell line  THP-1",NA,TRUE,"control","control",FALSE
+"GSM3430940","THP1_6H_DMSO_rep2",2.7886890895871,"GSE121291","GPL16043",5,6,"DMSO","AML cell line  THP-1",NA,TRUE,"control","control",FALSE
+"GSM3430941","THP1_6H_DMSO_rep3",2.7669992240119,"GSE121291","GPL16043",5,6,"DMSO","AML cell line  THP-1",NA,TRUE,"control","control",FALSE
+"GSM3430942","THP1_6H_1365_rep1",2.6344141456562,"GSE121291","GPL16043",5,6,"SY-1365","AML cell line  THP-1",NA,FALSE,"SY-1365","high",FALSE
+"GSM3430943","THP1_6H_1365_rep2",2.6252792611919,"GSE121291","GPL16043",5,6,"SY-1365","AML cell line  THP-1",NA,FALSE,"SY-1365","high",FALSE
+"GSM3430944","THP1_6H_1365_rep3",2.583383767675,"GSE121291","GPL16043",5,6,"SY-1365","AML cell line  THP-1",NA,FALSE,"SY-1365","high",FALSE
+"GSM3430945","THP1_6H_JQ1_rep1",3.007403927364,"GSE121291","GPL16043",5,6,"JQ1","AML cell line  THP-1",NA,FALSE,"JQ1","high",FALSE
+"GSM3430946","THP1_6H_JQ1_rep2",2.8403257315624,"GSE121291","GPL16043",5,6,"JQ1","AML cell line  THP-1",NA,FALSE,"JQ1","high",FALSE
+"GSM3430947","THP1_6H_JQ1_rep3",2.7959839052385,"GSE121291","GPL16043",5,6,"JQ1","AML cell line  THP-1",NA,FALSE,"JQ1","high",FALSE
+"GSM3430948","THP1_6H_NVP2_rep1",2.5068585663234,"GSE121291","GPL16043",5,6,"NVP2","AML cell line  THP-1",NA,FALSE,"NVP2","high",FALSE
+"GSM3430949","THP1_6H_NVP2_rep2",2.4469691573169,"GSE121291","GPL16043",5,6,"NVP2","AML cell line  THP-1",NA,FALSE,"NVP2","high",FALSE
+"GSM3430950","THP1_6H_NVP2_rep3",2.4639242486012,"GSE121291","GPL16043",5,6,"NVP2","AML cell line  THP-1",NA,FALSE,"NVP2","high",FALSE
+"GSM3430951","THP1_6H_FLAVO_rep1",2.3774375404157,"GSE121291","GPL16043",5,6,"FLAVO","AML cell line  THP-1",NA,FALSE,"FLAVO","high",FALSE
+"GSM3430952","THP1_6H_FLAVO_rep2",2.5072659997661,"GSE121291","GPL16043",5,6,"FLAVO","AML cell line  THP-1",NA,FALSE,"FLAVO","high",FALSE
+"GSM3430953","THP1_6H_FLAVO_rep3",2.531741516875,"GSE121291","GPL16043",5,6,"FLAVO","AML cell line  THP-1",NA,FALSE,"FLAVO","high",FALSE
+"GSM3466431","Vehicle rep 1",0.19945223,"GSE122428","GPL570",6,6,"vehicle",NA,NA,TRUE,"control","control",FALSE
+"GSM3466432","Vehicle rep 2",0.31291594,"GSE122428","GPL570",6,6,"vehicle",NA,NA,TRUE,"control","control",FALSE
+"GSM3466433","Vehicle rep 3",0.30996491,"GSE122428","GPL570",6,6,"vehicle",NA,NA,TRUE,"control","control",FALSE
+"GSM3466434","BAY1436032 rep 1",-0.19038611,"GSE122428","GPL570",6,6,"BAY1436032 (150 mg/kg, p.o., q.d., 4 weeks)",NA,NA,FALSE,"BAY1436032","high",FALSE
+"GSM3466435","BAY1436032 rep 2",-0.24533214,"GSE122428","GPL570",6,6,"BAY1436032 (150 mg/kg, p.o., q.d., 4 weeks)",NA,NA,FALSE,"BAY1436032","high",FALSE
+"GSM3466436","BAY1436032 rep 3",-0.13542082,"GSE122428","GPL570",6,6,"BAY1436032 (150 mg/kg, p.o., q.d., 4 weeks)",NA,NA,FALSE,"BAY1436032","high",FALSE
+"GSM3466437","Azacitidine rep 1",0.08425419,"GSE122428","GPL570",6,6,"azacitidine (1 mg/kg, s.c., days 1 to 5)",NA,NA,FALSE,"azacitidine","high",FALSE
+"GSM3466438","Azacitidine rep 2",0.07838848,"GSE122428","GPL570",6,6,"azacitidine (1 mg/kg, s.c., days 1 to 5)",NA,NA,FALSE,"azacitidine","high",FALSE
+"GSM3466439","Azacitidine rep 3",0.1875007,"GSE122428","GPL570",6,6,"azacitidine (1 mg/kg, s.c., days 1 to 5)",NA,NA,FALSE,"azacitidine","high",FALSE
+"GSM3466440","BAY1436032+Azacitidine rep 1",-0.20409121,"GSE122428","GPL570",6,6,"BAY1436032 (150 mg/kg, p.o., q.d., 4 weeks)+azacitidine (1 mg/kg, s.c., days 1 to 5)",NA,NA,FALSE,"BAY1436032 +azacitidine","high",FALSE
+"GSM3466441","BAY1436032+Azacitidine rep 2",-0.22222547,"GSE122428","GPL570",6,6,"BAY1436032 (150 mg/kg, p.o., q.d., 4 weeks)+azacitidine (1 mg/kg, s.c., days 1 to 5)",NA,NA,FALSE,"BAY1436032 +azacitidine","high",FALSE
+"GSM3466442","BAY1436032+Azacitidine rep 3",-0.17504901,"GSE122428","GPL570",6,6,"BAY1436032 (150 mg/kg, p.o., q.d., 4 weeks)+azacitidine (1 mg/kg, s.c., days 1 to 5)",NA,NA,FALSE,"BAY1436032 +azacitidine","high",FALSE
+"GSM3498361","AZA001",4.8320851041239,"GSE123207","GPL570",6,6,"vehicle","AML-193",NA,TRUE,"control","control",FALSE
+"GSM3498362","AZA002",4.8016187690518,"GSE123207","GPL570",6,6,"vehicle","AML-193",NA,TRUE,"control","control",FALSE
+"GSM3498363","AZA003",4.4911433412535,"GSE123207","GPL570",6,6,"0.5uM AZA","AML-193",NA,FALSE,"AZA","high",FALSE
+"GSM3498364","AZA004",4.5250950713501,"GSE123207","GPL570",6,6,"0.5uM AZA","AML-193",NA,FALSE,"AZA","high",FALSE
+"GSM3498365","AZA005",7.237920442679,"GSE123207","GPL570",6,6,"vehicle","HNT-34",NA,TRUE,"control","control",FALSE
+"GSM3498366","AZA006",7.279015620487,"GSE123207","GPL570",6,6,"vehicle","HNT-34",NA,TRUE,"control","control",FALSE
+"GSM3498367","AZA007",6.928818257038,"GSE123207","GPL570",6,6,"0.5uM AZA","HNT-34",NA,FALSE,"AZA","high",FALSE
+"GSM3498368","AZA008",6.920526792384,"GSE123207","GPL570",6,6,"0.5uM AZA","HNT-34",NA,FALSE,"AZA","high",FALSE
+"GSM3498369","AZA009",5.989397974108,"GSE123207","GPL570",6,6,"vehicle","KG1a",NA,TRUE,"control","control",FALSE
+"GSM3498370","AZA010",5.962212888278,"GSE123207","GPL570",6,6,"vehicle","KG1a",NA,TRUE,"control","control",FALSE
+"GSM3498371","AZA011",6.053766399505,"GSE123207","GPL570",6,6,"0.5uM AZA","KG1a",NA,FALSE,"AZA","high",FALSE
+"GSM3498372","AZA012",6.04115673405,"GSE123207","GPL570",6,6,"0.5uM AZA","KG1a",NA,FALSE,"AZA","high",FALSE
+"GSM3498373","AZA013",4.0519814038358,"GSE123207","GPL570",6,6,"vehicle","HL60",NA,TRUE,"control","control",FALSE
+"GSM3498374","AZA014",4.0838137000646,"GSE123207","GPL570",6,6,"vehicle","HL60",NA,TRUE,"control","control",FALSE
+"GSM3498375","AZA015",4.2209883068938,"GSE123207","GPL570",6,6,"0.5uM AZA","HL60",NA,FALSE,"AZA","high",FALSE
+"GSM3498376","AZA016",4.0867725766039,"GSE123207","GPL570",6,6,"0.5uM AZA","HL60",NA,FALSE,"AZA","high",FALSE
+"GSM3965439","MV411.0µM.DMSO.d4.n1",3.612780707065,"GSE134742","GPL570",6,6,"DMSO",NA,NA,TRUE,"control","control",FALSE
+"GSM3965440","MV411.0µM.DMSO.d4.n2",3.672180964072,"GSE134742","GPL570",6,6,"DMSO",NA,NA,TRUE,"control","control",FALSE
+"GSM3965441","MV411.0.4µM.DAC.d4.n1",3.641189541079,"GSE134742","GPL570",6,6,"DAC",NA,NA,FALSE,"DAC","high",FALSE
+"GSM3965442","MV411.0.4µM.DAC.d4.n2",3.593903665963,"GSE134742","GPL570",6,6,"DAC",NA,NA,FALSE,"DAC","high",FALSE
+"GSM3965443","MV411.1.0µM.GSK3484862.d4.n1",3.647781796753,"GSE134742","GPL570",6,6,"GSK3484862",NA,NA,FALSE,"GSK3484862","high",FALSE
+"GSM3965444","MV411.1.0µM.GSK3484862.d4.n2",3.62722069723,"GSE134742","GPL570",6,6,"GSK3484862",NA,NA,FALSE,"GSK3484862","high",FALSE
+"GSM3965445","MV411.10µM.GSK3510477.d4.n1",3.567973571134,"GSE134742","GPL570",6,6,"GSK3510477",NA,NA,FALSE,"GSK3510477","high",FALSE
+"GSM3965446","MV411.10µM.GSK3510477.d4.n2",3.55538301286,"GSE134742","GPL570",6,6,"GSK3510477",NA,NA,FALSE,"GSK3510477","high",FALSE
+"GSM3965447","THP1.0µM.DMSO.d4.n1",2.791828699837,"GSE134742","GPL570",6,6,"DMSO",NA,NA,TRUE,"control","control",FALSE
+"GSM3965448","THP1.0µM.DMSO.d4.n2",2.91410101357,"GSE134742","GPL570",6,6,"DMSO",NA,NA,TRUE,"control","control",FALSE
+"GSM3965449","THP1.1.0µM.GSK3484862.d4.n1",2.8821071312152,"GSE134742","GPL570",6,6,"GSK3484862",NA,NA,FALSE,"GSK3484862","high",FALSE
+"GSM3965450","THP1.1.0µM.GSK3484862.d4.n2",2.917392757747,"GSE134742","GPL570",6,6,"GSK3484862",NA,NA,FALSE,"GSK3484862","high",FALSE
+"GSM3965451","NOMO1.0µM.DMSO.d4.n1",4.808972302911,"GSE134742","GPL570",6,6,"DMSO",NA,NA,TRUE,"control","control",FALSE
+"GSM3965452","NOMO1.0µM.DMSO.d4.n2",4.821036578634,"GSE134742","GPL570",6,6,"DMSO",NA,NA,TRUE,"control","control",FALSE
+"GSM3965453","NOMO1.1.0µM.GSK3484862.d4.n1",4.687243511001,"GSE134742","GPL570",6,6,"GSK3484862",NA,NA,FALSE,"GSK3484862","high",FALSE
+"GSM3965454","NOMO1.1.0µM.GSK3484862.d4.n2",4.678216761699,"GSE134742","GPL570",6,6,"GSK3484862",NA,NA,FALSE,"GSK3484862","high",FALSE
+"GSM4292642","MV4-11 control, replicate 1",2.9501660738662,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292643","MV4-11 treated, replicate 1",2.781434683432,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292644","MV4-11 control, replicate 2",2.927905735436,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292645","MV4-11 treated, replicate 2",2.7736848001005,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292646","MOLM-13 control, replicate 1",3.223408341285,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292647","MOLM-13 treated, replicate 1",3.0724562623133,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292648","MOLM-13 control, replicate 2",3.2979344568368,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292649","MOLM-13 treated, replicate 2",3.1561677809128,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292650","NOMO-1 control, replicate 1",3.6414061136018,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292651","NOMO-1 treated, replicate 1",2.4208220994067,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292652","NOMO-1 control, replicate 2",3.3650603741625,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292653","NOMO-1 treated, replicate 2",2.2333110963855,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292654","THP-1 control, replicate 1",3.1597804522551,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292655","THP-1 treated, replicate 1",2.290651455542,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292656","THP-1 control, replicate 2",3.0045404078974,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL rearranged",TRUE,"control","control",FALSE
+"GSM4292657","THP-1 treated, replicate 2",2.3533626581875,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL rearranged",FALSE,"Pinometostat","high",FALSE
+"GSM4292658","OCI-AML3 control, replicate 1",2.731290082328,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL wild type",TRUE,"control","control",FALSE
+"GSM4292659","OCI-AML3 treated, replicate 1",2.5817818940988,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL wild type",FALSE,"Pinometostat","high",FALSE
+"GSM4292660","OCI-AML3 control, replicate 2",2.69795990026,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL wild type",TRUE,"control","control",FALSE
+"GSM4292661","OCI-AML3 treated, replicate 2",2.5412975594672,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL wild type",FALSE,"Pinometostat","high",FALSE
+"GSM4292662","U-937 control, replicate 1",2.8527337931422,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL wild type",TRUE,"control","control",FALSE
+"GSM4292663","U-937 treated, replicate 1",2.8342368535072,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL wild type",FALSE,"Pinometostat","high",FALSE
+"GSM4292664","U-937 control, replicate 2",3.0163064367975,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL wild type",TRUE,"control","control",FALSE
+"GSM4292665","U-937 treated, replicate 2",3.0214014654318,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL wild type",FALSE,"Pinometostat","high",FALSE
+"GSM4292666","HL-60 control, replicate 1",2.7224292738278,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL wild type",TRUE,"control","control",FALSE
+"GSM4292667","HL-60 treated, replicate 1",2.7497221778175,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL wild type",FALSE,"Pinometostat","high",FALSE
+"GSM4292668","HL-60 control, replicate 2",2.6509545840454,"GSE144638","GPL23159",5,6,"8 days vehicle (DMSO 0.01%)",NA,"MLL wild type",TRUE,"control","control",FALSE
+"GSM4292669","HL-60 treated, replicate 2",2.7604301935334,"GSE144638","GPL23159",5,6,"8 days Pinometostat (1 uM)",NA,"MLL wild type",FALSE,"Pinometostat","high",FALSE
+"GSM4504727","THP-1 CNTRL [291]",3.5221075346948,"GSE149548","GPL23159",5,6,"vehicle control","THP-1",NA,TRUE,"control","control",FALSE
+"GSM4504728","THP-1 CNTRL [292]",3.5734838292867,"GSE149548","GPL23159",5,6,"vehicle control","THP-1",NA,TRUE,"control","control",FALSE
+"GSM4504729","THP-1 CNTRL [293]",3.6345715973895,"GSE149548","GPL23159",5,6,"vehicle control","THP-1",NA,TRUE,"control","control",FALSE
+"GSM4504730","THP1 DENATONIUM [294]",3.7094044828813,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.5 mM)","THP-1",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504731","THP1 DENATONIUM [295]",3.6685229343438,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.5 mM)","THP-1",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504732","THP1 DENATONIUM [296]",3.7084730077593,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.5 mM)","THP-1",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504733","OCI-AML3 CNTRL [256]",2.5348935461234,"GSE149548","GPL23159",5,6,"vehicle control","OCI-AML3",NA,TRUE,"control","control",FALSE
+"GSM4504734","OCI-AML3 CNTRL [257]",2.6335805152716,"GSE149548","GPL23159",5,6,"vehicle control","OCI-AML3",NA,TRUE,"control","control",FALSE
+"GSM4504735","OCI-AML3 CNTRL [258]",2.3433217427624,"GSE149548","GPL23159",5,6,"vehicle control","OCI-AML3",NA,TRUE,"control","control",FALSE
+"GSM4504736","OCI-AML3 DENATONIUM [259]",2.2822612800213,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.1 mM)","OCI-AML3",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504737","OCI-AML3 DENATONIUM [260]",2.387913302205,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.1 mM)","OCI-AML3",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504738","OCI-AML3 DENATONIUM [261]",2.4690854273211,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.1 mM)","OCI-AML3",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504739","AML #1 CNTRL [297]",4.818730353,"GSE149548","GPL23159",5,6,"vehicle control","primary AML cells",NA,TRUE,"control","control",FALSE
+"GSM4504740","AML #1 DENATONIUM [298]",5.220569226,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.5 mM)","primary AML cells",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504741","AML #2 CNTRL [301]",4.939650628,"GSE149548","GPL23159",5,6,"vehicle control","primary AML cells",NA,TRUE,"control","control",FALSE
+"GSM4504742","AML #2 DENATONIUM [302]",5.241388733,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.5 mM)","primary AML cells",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4504743","AML #3 CNTRL [303]",2.5315538151,"GSE149548","GPL23159",5,6,"vehicle control","primary AML cells",NA,TRUE,"control","control",FALSE
+"GSM4504744","AML #3 DENATONIUM [304]",2.2763478993,"GSE149548","GPL23159",5,6,"Denatonium-treated (0.5 mM)","primary AML cells",NA,FALSE,"Denatonium-","high",FALSE
+"GSM4709291","wild-type cells 50 nM LSD1 inhibitor treated - rep1",4.20246828640426,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","THP1 wild-type cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709292","wild-type cells 100 nM LSD1 inhibitor treated - rep1",4.21572270976429,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","THP1 wild-type cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709293","wild-type cells 50 nM NTR prodrug treated - rep1",4.20527454944196,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","THP1 wild-type cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709294","wild-type cells 100 nM NTR prodrug treated - rep1",4.17784749542177,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","THP1 wild-type cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709295","wild-type cells 100 nM negativ control of LSD1 inhibitor treated - rep1",4.15502545307869,"GSE155640","GPL23159",5,6,"a negative control (structurally related to OG86, but inactive on LSD1)","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709296","wild-type cells 100 nM negativ control of NTR prodrug treated - rep1",4.11906373103408,"GSE155640","GPL23159",5,6,"a NTR prodrug of negative control (structurally related to OG86, but inactive on LSD1)","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709297","wild-type cells vehicle treated - rep1",4.17154669089063,"GSE155640","GPL23159",5,6,"vehicle DMSO","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709298","NTR-expressing cells 50 nM LSD1 inhibitor treated - rep1",4.21524925416694,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","NfsB-positive THP1 cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709299","NTR-expressing cells 100 nM LSD1 inhibitor treated - rep1",4.23151093118641,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","NfsB-positive THP1 cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709300","NTR-expressing cells 50 nM NTR prodrug treated - rep1",4.25519219216935,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","NfsB-positive THP1 cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709301","NTR-expressing cells 100 nM NTR prodrug treated - rep1",4.24241979662815,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","NfsB-positive THP1 cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709302","NTR-expressing cells 100 nM negativ control of LSD1 inhibitor treated - rep1",4.20767469105124,"GSE155640","GPL23159",5,6,"a negative control (structurally related to OG86, but inactive on LSD1)","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709303","NTR-expressing cells 100 nM negativ control of NTR prodrug treated - rep1",4.21072605050813,"GSE155640","GPL23159",5,6,"a NTR prodrug of negative control (structurally related to OG86, but inactive on LSD1)","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709304","NTR-expressing cells vehicle treated - rep1",4.20079445451002,"GSE155640","GPL23159",5,6,"vehicle DMSO","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709305","wild-type cells 50 nM LSD1 inhibitor treated - rep2",4.12739755379406,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","THP1 wild-type cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709306","wild-type cells 100 nM LSD1 inhibitor treated - rep2",4.11731927166051,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","THP1 wild-type cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709307","wild-type cells 50 nM NTR prodrug treated - rep2",4.11749194797769,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","THP1 wild-type cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709308","wild-type cells 100 nM NTR prodrug treated - rep2",4.14244692584223,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","THP1 wild-type cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709309","wild-type cells 100 nM negativ control of LSD1 inhibitor treated - rep2",4.18473138502735,"GSE155640","GPL23159",5,6,"a negative control (structurally related to OG86, but inactive on LSD1)","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709310","wild-type cells 100 nM negativ control of NTR prodrug treated - rep2",4.1453267938599,"GSE155640","GPL23159",5,6,"a NTR prodrug of negative control (structurally related to OG86, but inactive on LSD1)","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709311","wild-type cells vehicle treated - rep2",4.1405935305456,"GSE155640","GPL23159",5,6,"vehicle DMSO","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709312","NTR-expressing cells 50 nM LSD1 inhibitor treated - rep2",4.18466530738028,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","NfsB-positive THP1 cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709313","NTR-expressing cells 100 nM LSD1 inhibitor treated - rep2",4.15909044382041,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","NfsB-positive THP1 cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709314","NTR-expressing cells 50 nM NTR prodrug treated - rep2",4.21972656514601,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","NfsB-positive THP1 cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709315","NTR-expressing cells 100 nM NTR prodrug treated - rep2",4.11592446843911,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","NfsB-positive THP1 cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709316","NTR-expressing cells 100 nM negativ control of LSD1 inhibitor treated - rep2",4.2090155443529,"GSE155640","GPL23159",5,6,"a negative control (structurally related to OG86, but inactive on LSD1)","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709317","NTR-expressing cells 100 nM negativ control of NTR prodrug treated - rep2",4.21472027240098,"GSE155640","GPL23159",5,6,"a NTR prodrug of negative control (structurally related to OG86, but inactive on LSD1)","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709318","NTR-expressing cells vehicle treated - rep2",4.17952907597639,"GSE155640","GPL23159",5,6,"vehicle DMSO","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709319","wild-type cells 50 nM LSD1 inhibitor treated - rep3",4.12364229022742,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","THP1 wild-type cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709320","wild-type cells 100 nM LSD1 inhibitor treated - rep3",4.18095177557308,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","THP1 wild-type cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709321","wild-type cells 50 nM NTR prodrug treated - rep3",4.12127213726031,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","THP1 wild-type cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709322","wild-type cells 100 nM NTR prodrug treated - rep3",4.1296203202954,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","THP1 wild-type cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709323","wild-type cells 100 nM negativ control of LSD1 inhibitor treated - rep3",4.08718895183992,"GSE155640","GPL23159",5,6,"a negative control (structurally related to OG86, but inactive on LSD1)","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709324","wild-type cells 100 nM negativ control of NTR prodrug treated - rep3",4.15698324325716,"GSE155640","GPL23159",5,6,"a NTR prodrug of negative control (structurally related to OG86, but inactive on LSD1)","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709325","wild-type cells vehicle treated - rep3",4.09221663582399,"GSE155640","GPL23159",5,6,"vehicle DMSO","THP1 wild-type cells",NA,TRUE,"control","control",TRUE
+"GSM4709326","NTR-expressing cells 50 nM LSD1 inhibitor treated - rep3",4.11909166981646,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","NfsB-positive THP1 cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709327","NTR-expressing cells 100 nM LSD1 inhibitor treated - rep3",4.11463498865065,"GSE155640","GPL23159",5,6,"LSD1 inhibitor OG86","NfsB-positive THP1 cells",NA,FALSE,"LSD1 OG86","high",TRUE
+"GSM4709328","NTR-expressing cells 50 nM NTR prodrug treated - rep3",4.14072641349554,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","NfsB-positive THP1 cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709329","NTR-expressing cells 100 nM NTR prodrug treated - rep3",4.1153346714628,"GSE155640","GPL23159",5,6,"NTR prodrug of LSD1 inhibitor","NfsB-positive THP1 cells",NA,FALSE,"NTR LSD1","high",TRUE
+"GSM4709330","NTR-expressing cells 100 nM negativ control of LSD1 inhibitor treated - rep3",4.18089984627885,"GSE155640","GPL23159",5,6,"a negative control (structurally related to OG86, but inactive on LSD1)","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709331","NTR-expressing cells 100 nM negativ control of NTR prodrug treated - rep3",4.19511627917173,"GSE155640","GPL23159",5,6,"a NTR prodrug of negative control (structurally related to OG86, but inactive on LSD1)","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4709332","NTR-expressing cells vehicle treated - rep3",4.12573071178989,"GSE155640","GPL23159",5,6,"vehicle DMSO","NfsB-positive THP1 cells",NA,TRUE,"control","control",TRUE
+"GSM4792226","DMSO_1",3.0346819446352,"GSE158103","GPL23159",5,6,"DMSO","OCI-AML3 cells","wildtype",TRUE,"control","control",FALSE
+"GSM4792227","DMSO_2",3.004163690497,"GSE158103","GPL23159",5,6,"DMSO","OCI-AML3 cells","wildtype",TRUE,"control","control",FALSE
+"GSM4792228","DMSO_3",2.9712860812688,"GSE158103","GPL23159",5,6,"DMSO","OCI-AML3 cells","wildtype",TRUE,"control","control",FALSE
+"GSM4792229","DMSO_4",3.0208984620855,"GSE158103","GPL23159",5,6,"DMSO","OCI-AML3 cells","wildtype",TRUE,"control","control",FALSE
+"GSM4792230","DMSO_5",3.019662992691,"GSE158103","GPL23159",5,6,"DMSO","OCI-AML3 cells","wildtype",TRUE,"control","control",FALSE
+"GSM4792231","DMSO_6",3.1058713344483,"GSE158103","GPL23159",5,6,"DMSO","OCI-AML3 cells","wildtype",TRUE,"control","control",FALSE
+"GSM4792232","RG7112_1",2.757713596185,"GSE158103","GPL23159",5,6,"RG7112","OCI-AML3 cells","wildtype",FALSE,"RG7112","high",FALSE
+"GSM4792233","RG7112_2",2.8052782825981,"GSE158103","GPL23159",5,6,"RG7112","OCI-AML3 cells","wildtype",FALSE,"RG7112","high",FALSE
+"GSM4792234","RG7112_3",2.7224054991066,"GSE158103","GPL23159",5,6,"RG7112","OCI-AML3 cells","wildtype",FALSE,"RG7112","high",FALSE
+"GSM4792235","RG7112_4",2.7732919240963,"GSE158103","GPL23159",5,6,"RG7112","OCI-AML3 cells","wildtype",FALSE,"RG7112","high",FALSE
+"GSM4792236","RG7112_5",2.8374637668873,"GSE158103","GPL23159",5,6,"RG7112","OCI-AML3 cells","wildtype",FALSE,"RG7112","high",FALSE
+"GSM4792237","RG7112_6",2.8242227391778,"GSE158103","GPL23159",5,6,"RG7112","OCI-AML3 cells","wildtype",FALSE,"RG7112","high",FALSE
+"GSM4792238","HDM201_1",2.7233756985639,"GSE158103","GPL23159",5,6,"HDM201","OCI-AML3 cells","wildtype",FALSE,"HDM201","high",FALSE
+"GSM4792239","HDM201_2",2.7289052811554,"GSE158103","GPL23159",5,6,"HDM201","OCI-AML3 cells","wildtype",FALSE,"HDM201","high",FALSE
+"GSM4792240","HDM201_3",2.783799315799,"GSE158103","GPL23159",5,6,"HDM201","OCI-AML3 cells","wildtype",FALSE,"HDM201","high",FALSE
+"GSM4792241","HDM201_4",2.7828165537849,"GSE158103","GPL23159",5,6,"HDM201","OCI-AML3 cells","wildtype",FALSE,"HDM201","high",FALSE
+"GSM4792242","HDM201_5",2.8951009010917,"GSE158103","GPL23159",5,6,"HDM201","OCI-AML3 cells","wildtype",FALSE,"HDM201","high",FALSE
+"GSM4792243","HDM201_6",2.7736501035221,"GSE158103","GPL23159",5,6,"HDM201","OCI-AML3 cells","wildtype",FALSE,"HDM201","high",FALSE
+"GSM7074717","MOLM14_vehicle_n2_13",3.727592,"GSE226418","GPL23159",5,6,"vehicle","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM7074718","MOLM14_vehicle_n3_14",3.738661,"GSE226418","GPL23159",5,6,"vehicle","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM7074719","MOLM14_vehicle_n5_15",3.419037,"GSE226418","GPL23159",5,6,"vehicle","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM7074720","MOLM14_QUIZ_n2_16",3.772686,"GSE226418","GPL23159",5,6,"QUIZ","MOLM-14",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074721","MOLM14_QUIZ_n3_17",3.650027,"GSE226418","GPL23159",5,6,"QUIZ","MOLM-14",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074722","MOLM14_QUIZ_n5_18",3.740233,"GSE226418","GPL23159",5,6,"QUIZ","MOLM-14",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074729","MV411_vehicle_n2_7",2.799145,"GSE226420","GPL23159",5,6,"vehicle","MV4-11",NA,TRUE,"control","control",FALSE
+"GSM7074730","MV411_vehicle_n3_8",2.903279,"GSE226420","GPL23159",5,6,"vehicle","MV4-11",NA,TRUE,"control","control",FALSE
+"GSM7074731","MV411_vehicle_n5_9",2.921515,"GSE226420","GPL23159",5,6,"vehicle","MV4-11",NA,TRUE,"control","control",FALSE
+"GSM7074732","MV411_QUIZ_n2_10",3.031677,"GSE226420","GPL23159",5,6,"QUIZ","MV4-11",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074733","MV411_QUIZ_n3_11",2.83959,"GSE226420","GPL23159",5,6,"QUIZ","MV4-11",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074734","MV411_QUIZ_n5_12",3.011217,"GSE226420","GPL23159",5,6,"QUIZ","MV4-11",NA,FALSE,"QUIZ","high",FALSE
+"GSM7075887","PDXTUH06_vehicle_1",4.453287,"GSE226459","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075888","PDXTUH84_vehicle_3",5.69795,"GSE226459","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075889","PDXTUH93_vehicle_5",4.963558,"GSE226459","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075890","PDXTUH06_QUIZ_2",4.425729,"GSE226459","GPL23159",5,6,"quizartinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"quizartinib","high",FALSE
+"GSM7075891","PDXTUH84_QUIZ_4",5.534134,"GSE226459","GPL23159",5,6,"quizartinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"quizartinib","high",FALSE
+"GSM7075892","PDXTUH93_QUIZ_6",4.779637,"GSE226459","GPL23159",5,6,"quizartinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"quizartinib","high",FALSE
+"GSM7075893","PDXTUH73_vivo_vehicle_1",3.809206,"GSE226460","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075894","PDXTUH86_vivo_vehicle_3",3.697322,"GSE226460","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075895","PDXTUH110_vivo_vehicle_5",3.771208,"GSE226460","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075896","PDXTUH73_vivo_GILT_2",3.328056,"GSE226460","GPL23159",5,6,"gilteritinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"gilteritinib","high",FALSE
+"GSM7075897","PDXTUH86_vivo_GILT_4",3.500691,"GSE226460","GPL23159",5,6,"gilteritinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"gilteritinib","high",FALSE
+"GSM7075898","PDXTUH110_vivo_GILT_6",3.738639,"GSE226460","GPL23159",5,6,"gilteritinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"gilteritinib","high",FALSE
+"GSM7074676","empty_n1_1",3.936854,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074677","empty_n2_2",3.888404,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074678","empty_n3_3",3.872642,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074679","QUIZ_empty_n1_7",4.057927,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074680","QUIZ_empty_n2_8",3.900588,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074681","QUIZ_empty_n3_9",4.068257,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074682","CEBPAOE_n1_4",3.848486,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074683","CEBPAOE_n2_5",3.759533,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074684","CEBPAOE_n3_6",3.894836,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074685","QUIZ__CEBPAOE_n1_10",3.889181,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074686","QUIZ__CEBPAOE_n2_11",3.915015,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074687","QUIZ__CEBPAOE_n3_12",3.850652,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074700","MOLM14_shCTL_n2_19",3.761138,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074701","MOLM14_shCTL_n3_20",3.8184,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074702","MOLM14_shCTL_n5_21",3.797383,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074703","MOLM14_shFLT3_n2_22",3.665221,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074704","MOLM14_shFLT3_n3_23",3.695773,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074705","MOLM14_shFLT3_n5_24",3.665121,"GSE226461","GPL23159",5,6,NA,"MOLM-14",NA,FALSE,NA,"none",FALSE
+"GSM7074717","MOLM14_vehicle_n2_13",3.727592,"GSE226461","GPL23159",5,6,"vehicle","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM7074718","MOLM14_vehicle_n3_14",3.738661,"GSE226461","GPL23159",5,6,"vehicle","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM7074719","MOLM14_vehicle_n5_15",3.419037,"GSE226461","GPL23159",5,6,"vehicle","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM7074720","MOLM14_QUIZ_n2_16",3.772686,"GSE226461","GPL23159",5,6,"QUIZ","MOLM-14",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074721","MOLM14_QUIZ_n3_17",3.650027,"GSE226461","GPL23159",5,6,"QUIZ","MOLM-14",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074722","MOLM14_QUIZ_n5_18",3.740233,"GSE226461","GPL23159",5,6,"QUIZ","MOLM-14",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074723","MV411_shCTL_n1_1",2.81993,"GSE226461","GPL23159",5,6,NA,"MV4-11",NA,FALSE,NA,"none",FALSE
+"GSM7074724","MV411_shCTL_n3_2",3.017605,"GSE226461","GPL23159",5,6,NA,"MV4-11",NA,FALSE,NA,"none",FALSE
+"GSM7074725","MV411_shCTL_n4_3",2.916874,"GSE226461","GPL23159",5,6,NA,"MV4-11",NA,FALSE,NA,"none",FALSE
+"GSM7074726","MV411_shFLT3_n1_4",2.864009,"GSE226461","GPL23159",5,6,NA,"MV4-11",NA,FALSE,NA,"none",FALSE
+"GSM7074727","MV411_shFLT3_n3_5",2.818181,"GSE226461","GPL23159",5,6,NA,"MV4-11",NA,FALSE,NA,"none",FALSE
+"GSM7074728","MV411_shFLT3_n4_6",2.791479,"GSE226461","GPL23159",5,6,NA,"MV4-11",NA,FALSE,NA,"none",FALSE
+"GSM7074729","MV411_vehicle_n2_7",2.799145,"GSE226461","GPL23159",5,6,"vehicle","MV4-11",NA,TRUE,"control","control",FALSE
+"GSM7074730","MV411_vehicle_n3_8",2.903279,"GSE226461","GPL23159",5,6,"vehicle","MV4-11",NA,TRUE,"control","control",FALSE
+"GSM7074731","MV411_vehicle_n5_9",2.921515,"GSE226461","GPL23159",5,6,"vehicle","MV4-11",NA,TRUE,"control","control",FALSE
+"GSM7074732","MV411_QUIZ_n2_10",3.031677,"GSE226461","GPL23159",5,6,"QUIZ","MV4-11",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074733","MV411_QUIZ_n3_11",2.83959,"GSE226461","GPL23159",5,6,"QUIZ","MV4-11",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074734","MV411_QUIZ_n5_12",3.011217,"GSE226461","GPL23159",5,6,"QUIZ","MV4-11",NA,FALSE,"QUIZ","high",FALSE
+"GSM7074739","MOLM14_siCTL_n1_13",3.932991,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074740","MOLM14_siCTL_n2_15",3.743657,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074741","MOLM14_siCTL_n3_17",3.973493,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074742","MOLM14_siCEBPA_2_n1_14",4.037796,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074743","MOLM14_siCEBPA_2_n2_16",3.907964,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074744","MOLM14_siCEBPA_2_n3_18",3.951262,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074745","MOLM14_shCTLconsti_n1_7",3.987426,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074746","MOLM14_shCTLconsti_n2_9",4.071702,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074747","MOLM14_shCTLconsti_n3_11",4.103531,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074748","MOLM14_shCEBPA#1_n1_8",3.8766,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074749","MOLM14_shCEBPA#1_n2_10",4.038877,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7074750","MOLM14_shCEBPA#1_n3_12",4.041322,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7075869","MOLM14_shCTL_+DOX_n1_1",4.069408,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7075870","MOLM14_shCTL_+DOX_n2_3",4.097623,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7075871","MOLM14_shCTL_+DOX_n3_5",4.142602,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7075872","MOLM14_shCEBPA1_+DOX_n1_2",4.080817,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7075873","MOLM14_shCEBPA1_+DOX_n2_4",4.078883,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7075874","MOLM14_shCEBPA1_+DOX_n3_6",4.046928,"GSE226461","GPL23159",5,6,NA,"MOLM14",NA,FALSE,NA,"none",FALSE
+"GSM7075887","PDXTUH06_vehicle_1",4.453287,"GSE226461","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075888","PDXTUH84_vehicle_3",5.69795,"GSE226461","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075889","PDXTUH93_vehicle_5",4.963558,"GSE226461","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075890","PDXTUH06_QUIZ_2",4.425729,"GSE226461","GPL23159",5,6,"quizartinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"quizartinib","high",FALSE
+"GSM7075891","PDXTUH84_QUIZ_4",5.534134,"GSE226461","GPL23159",5,6,"quizartinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"quizartinib","high",FALSE
+"GSM7075892","PDXTUH93_QUIZ_6",4.779637,"GSE226461","GPL23159",5,6,"quizartinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"quizartinib","high",FALSE
+"GSM7075893","PDXTUH73_vivo_vehicle_1",3.809206,"GSE226461","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075894","PDXTUH86_vivo_vehicle_3",3.697322,"GSE226461","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075895","PDXTUH110_vivo_vehicle_5",3.771208,"GSE226461","GPL23159",5,6,"vehicle","patient-derived xenograft (PDX) AML cells",NA,TRUE,"control","control",FALSE
+"GSM7075896","PDXTUH73_vivo_GILT_2",3.328056,"GSE226461","GPL23159",5,6,"gilteritinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"gilteritinib","high",FALSE
+"GSM7075897","PDXTUH86_vivo_GILT_4",3.500691,"GSE226461","GPL23159",5,6,"gilteritinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"gilteritinib","high",FALSE
+"GSM7075898","PDXTUH110_vivo_GILT_6",3.738639,"GSE226461","GPL23159",5,6,"gilteritinib","patient-derived xenograft (PDX) AML cells",NA,FALSE,"gilteritinib","high",FALSE
+"GSM7437956","Vehicle replicate 5",3.2973226984808,"GSE233849","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437957","Vehicle replicate 4",3.2695229472954,"GSE233849","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437958","Vehicle replicate 3",3.3142291008885,"GSE233849","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437959","Vehicle replicate 2",3.267096254047,"GSE233849","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437960","Vehicle replicate 1",3.2228450718099,"GSE233849","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437961","MI replicate 5",3.134465648422,"GSE233849","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437962","MI replicate 4",3.1506915630074,"GSE233849","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437963","MI replicate 3",3.126987073179,"GSE233849","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437964","MI replicate 2",3.2526101967776,"GSE233849","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437965","MI replicate 1",3.1393477909285,"GSE233849","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437956","Vehicle replicate 5",3.2973226984808,"GSE294579","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437957","Vehicle replicate 4",3.2695229472954,"GSE294579","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437958","Vehicle replicate 3",3.3142291008885,"GSE294579","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437959","Vehicle replicate 2",3.267096254047,"GSE294579","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437960","Vehicle replicate 1",3.2228450718099,"GSE294579","GPL23159",5,6,"vehicle","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",TRUE,"control","control",FALSE
+"GSM7437961","MI replicate 5",3.134465648422,"GSE294579","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437962","MI replicate 4",3.1506915630074,"GSE294579","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437963","MI replicate 3",3.126987073179,"GSE294579","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437964","MI replicate 2",3.2526101967776,"GSE294579","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM7437965","MI replicate 1",3.1393477909285,"GSE294579","GPL23159",5,6,"MI-463","Macrophage","Gene fusion: MLL-AFF1; Mutation: FLT3",FALSE,"MI-463","high",FALSE
+"GSM738415","THP-1 DMSO 48h sample1",2.9662681676367,"GSE29799","GPL6244",6,6,"DMSO for 48h","MLL-AF9/NrasG12D human cell line",NA,TRUE,"control","control",FALSE
+"GSM738416","THP-1 DMSO 48h sample2",2.9722304323463,"GSE29799","GPL6244",6,6,"DMSO for 48h","MLL-AF9/NrasG12D human cell line",NA,TRUE,"control","control",FALSE
+"GSM738417","THP-1 DMSO 48h sample3",2.9850752193724,"GSE29799","GPL6244",6,6,"DMSO for 48h","MLL-AF9/NrasG12D human cell line",NA,TRUE,"control","control",FALSE
+"GSM738418","THP-1 250nM JQ1 48h sample1",2.9490484826147,"GSE29799","GPL6244",6,6,"250nM JQ1 for 48h","MLL-AF9/NrasG12D human cell line",NA,FALSE,"JQ1","high",FALSE
+"GSM738419","THP-1 250nM JQ1 48h sample2",2.9931113569467,"GSE29799","GPL6244",6,6,"250nM JQ1 for 48h","MLL-AF9/NrasG12D human cell line",NA,FALSE,"JQ1","high",FALSE
+"GSM738420","THP-1 250nM JQ1 48h sample3",2.851968492025,"GSE29799","GPL6244",6,6,"250nM JQ1 for 48h","MLL-AF9/NrasG12D human cell line",NA,FALSE,"JQ1","high",FALSE
+"GSM739148","3 uM EPZ004777 treated, DAY 2, biological rep.1, MV4-11 cells",3.40504201940119,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739149","3 uM EPZ004777 treated, DAY 2, biological rep.2, MV4-11 cells",3.35663209949326,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739150","3 uM EPZ004777 treated, DAY 2, biological rep.3, MV4-11 cells",3.39744760955364,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739151","Vehicle treated, DAY 2, biological rep.1, MV4-11 cells",3.49542908297246,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739152","Vehicle treated, DAY 2, biological rep.2, MV4-11 cells",3.4873419857033,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739153","Vehicle treated, DAY 2, biological rep.3, MV4-11 cells",3.48106731018698,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739154","3 uM EPZ004777 treated, DAY 4, biological rep.1, MV4-11 cells",3.23049642210823,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739155","3 uM EPZ004777 treated, DAY 4, biological rep.2, MV4-11 cells",3.29081114034315,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739156","3 uM EPZ004777 treated, DAY 4, biological rep.3, MV4-11 cells",3.28860610222772,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739157","Vehicle treated, DAY 4, biological rep.1, MV4-11 cells",3.47038345271764,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739158","Vehicle treated, DAY 4, biological rep.2, MV4-11 cells",3.47847007268345,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739159","Vehicle treated, DAY 4, biological rep.3, MV4-11 cells",3.51405463187237,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739160","3 uM EPZ004777 treated, DAY 6, biological rep.1, MV4-11 cells",3.26279948696391,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739161","3 uM EPZ004777 treated, DAY 6, biological rep.2, MV4-11 cells",3.2355547619465,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739162","3 uM EPZ004777 treated, DAY 6, biological rep.3, MV4-11 cells",3.29227258009199,"GSE29828","GPL570",6,6,"EPZ004777","MV4-11",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739163","Vehicle treated, DAY 6, biological rep.1, MV4-11 cells",3.50593809605978,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739164","Vehicle treated, DAY 6, biological rep.2, MV4-11 cells",3.51801736363391,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739165","Vehicle treated, DAY 6, biological rep.3, MV4-11 cells",3.47330730194699,"GSE29828","GPL570",6,6,"Vehicle","MV4-11",NA,TRUE,"control","control",TRUE
+"GSM739166","3 uM EPZ004777 treated, DAY 6, biological rep.1, MOLM-13 cells",3.50262138892596,"GSE29828","GPL570",6,6,"EPZ004777","MOLM-13",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739167","3 uM EPZ004777 treated, DAY 6, biological rep.2, MOLM-13 cells",3.47237584809289,"GSE29828","GPL570",6,6,"EPZ004777","MOLM-13",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739168","3 uM EPZ004777 treated, DAY 6, biological rep.3, MOLM-13 cells",3.50640015150133,"GSE29828","GPL570",6,6,"EPZ004777","MOLM-13",NA,FALSE,"EPZ004777","high",TRUE
+"GSM739169","Vehicle treated, DAY 6, biological rep.1, MOLM-13 cells",4.0198265314725,"GSE29828","GPL570",6,6,"Vehicle","MOLM-13",NA,TRUE,"control","control",TRUE
+"GSM739170","Vehicle treated, DAY 6, biological rep.2, MOLM-13 cells",3.95463949724424,"GSE29828","GPL570",6,6,"Vehicle","MOLM-13",NA,TRUE,"control","control",TRUE
+"GSM739171","Vehicle treated, DAY 6, biological rep.3, MOLM-13 cells",3.99249115917947,"GSE29828","GPL570",6,6,"Vehicle","MOLM-13",NA,TRUE,"control","control",TRUE
+"GSM853013","HL60_untreated 5688",3.7474971168579,"GSE34672","GPL10558",5,6,"vehicle","HL-60",NA,TRUE,"control","control",FALSE
+"GSM853014","HL60_ATRA 5689",3.7372119396122,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid","HL-60",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853015","HL60_TCP 5690",3.6980514129878,"GSE34672","GPL10558",5,6,"tranycypromine","HL-60",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853016","HL60_ATRA+TCP 5691",3.615108393881,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","HL-60",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853017","HL60_shScram 5694",3.8003264847089,"GSE34672","GPL10558",5,6,"scrambled control shRNA","HL-60",NA,FALSE,"scrambled control shRNA","high",FALSE
+"GSM853018","HL60_shLSD1#1 5695",3.7974902206085,"GSE34672","GPL10558",5,6,"LSD1 shRNA #1","HL-60",NA,FALSE,"LSD1 shRNA #1","high",FALSE
+"GSM853019","HL60_shLSD1#2 5696",3.763627757563,"GSE34672","GPL10558",5,6,"LSD1 shRNA #2","HL-60",NA,FALSE,"LSD1 shRNA #2","high",FALSE
+"GSM853020","TEX_untreated 5700",5.219738573743,"GSE34672","GPL10558",5,6,"vehicle","TEX",NA,TRUE,"control","control",FALSE
+"GSM853021","TEX_ATRA 5701",4.828314096279,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid","TEX",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853022","TEX_TCP 5702",5.277480993383,"GSE34672","GPL10558",5,6,"tranycypromine","TEX",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853023","TEX_ATRA+TCP 5703",4.943104243948,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","TEX",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853024","HL60_untreated 6094",3.6886548491911,"GSE34672","GPL10558",5,6,"vehicle","HL-60",NA,TRUE,"control","control",FALSE
+"GSM853025","HL60_ATRA 6095",3.6508314874958,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid","HL-60",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853026","HL60_TCP 6096",3.6680967367099,"GSE34672","GPL10558",5,6,"tranycypromine","HL-60",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853027","HL60_ATRA+TCP 6097",3.6221581079694,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","HL-60",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853028","TEX_untreated 6098",5.108356924871,"GSE34672","GPL10558",5,6,"vehicle","TEX",NA,TRUE,"control","control",FALSE
+"GSM853029","TEX_ATRA 6099",5.163098052588,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid","TEX",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853030","TEX_TCP 6100",4.851078806593,"GSE34672","GPL10558",5,6,"tranycypromine","TEX",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853031","TEX_ATRA+TCP 6101",4.874674208612,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","TEX",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853032","HL60_shScram 6103",3.7716387578191,"GSE34672","GPL10558",5,6,"scrambled control shRNA","HL-60",NA,FALSE,"scrambled control shRNA","high",FALSE
+"GSM853033","HL60_shLSD1#1 6104",3.7658604935961,"GSE34672","GPL10558",5,6,"LSD1 shRNA #1","HL-60",NA,FALSE,"LSD1 shRNA #1","high",FALSE
+"GSM853034","HL60_shLSD1#2 6105",3.7168582906773,"GSE34672","GPL10558",5,6,"LSD1 shRNA #2","HL-60",NA,FALSE,"LSD1 shRNA #2","high",FALSE
+"GSM853035","HL60_untreated 6110",3.7092546682228,"GSE34672","GPL10558",5,6,"vehicle","HL-60",NA,TRUE,"control","control",FALSE
+"GSM853036","HL60_ATRA 6111",3.7000383291674,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid","HL-60",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853037","HL60_TCP 6112",3.7063642971663,"GSE34672","GPL10558",5,6,"tranycypromine","HL-60",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853038","HL60_ATRA+TCP 6113",3.6453125942294,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","HL-60",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853039","TEX_untreated 6114",5.10752449794,"GSE34672","GPL10558",5,6,"vehicle","TEX",NA,TRUE,"control","control",FALSE
+"GSM853040","TEX_ATRA 6115",5.057174072533,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid","TEX",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853041","TEX_TCP 6116",4.778395054204,"GSE34672","GPL10558",5,6,"tranycypromine","TEX",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853042","TEX_ATRA+TCP 6117",4.848781818146,"GSE34672","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","TEX",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853013","HL60_untreated 5688",3.7474971168579,"GSE34726","GPL10558",5,6,"vehicle","HL-60",NA,TRUE,"control","control",FALSE
+"GSM853014","HL60_ATRA 5689",3.7372119396122,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid","HL-60",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853015","HL60_TCP 5690",3.6980514129878,"GSE34726","GPL10558",5,6,"tranycypromine","HL-60",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853016","HL60_ATRA+TCP 5691",3.615108393881,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","HL-60",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853017","HL60_shScram 5694",3.8003264847089,"GSE34726","GPL10558",5,6,"scrambled control shRNA","HL-60",NA,FALSE,"scrambled control shRNA","high",FALSE
+"GSM853018","HL60_shLSD1#1 5695",3.7974902206085,"GSE34726","GPL10558",5,6,"LSD1 shRNA #1","HL-60",NA,FALSE,"LSD1 shRNA #1","high",FALSE
+"GSM853019","HL60_shLSD1#2 5696",3.763627757563,"GSE34726","GPL10558",5,6,"LSD1 shRNA #2","HL-60",NA,FALSE,"LSD1 shRNA #2","high",FALSE
+"GSM853020","TEX_untreated 5700",5.219738573743,"GSE34726","GPL10558",5,6,"vehicle","TEX",NA,TRUE,"control","control",FALSE
+"GSM853021","TEX_ATRA 5701",4.828314096279,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid","TEX",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853022","TEX_TCP 5702",5.277480993383,"GSE34726","GPL10558",5,6,"tranycypromine","TEX",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853023","TEX_ATRA+TCP 5703",4.943104243948,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","TEX",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853024","HL60_untreated 6094",3.6886548491911,"GSE34726","GPL10558",5,6,"vehicle","HL-60",NA,TRUE,"control","control",FALSE
+"GSM853025","HL60_ATRA 6095",3.6508314874958,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid","HL-60",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853026","HL60_TCP 6096",3.6680967367099,"GSE34726","GPL10558",5,6,"tranycypromine","HL-60",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853027","HL60_ATRA+TCP 6097",3.6221581079694,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","HL-60",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853028","TEX_untreated 6098",5.108356924871,"GSE34726","GPL10558",5,6,"vehicle","TEX",NA,TRUE,"control","control",FALSE
+"GSM853029","TEX_ATRA 6099",5.163098052588,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid","TEX",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853030","TEX_TCP 6100",4.851078806593,"GSE34726","GPL10558",5,6,"tranycypromine","TEX",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853031","TEX_ATRA+TCP 6101",4.874674208612,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","TEX",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853032","HL60_shScram 6103",3.7716387578191,"GSE34726","GPL10558",5,6,"scrambled control shRNA","HL-60",NA,FALSE,"scrambled control shRNA","high",FALSE
+"GSM853033","HL60_shLSD1#1 6104",3.7658604935961,"GSE34726","GPL10558",5,6,"LSD1 shRNA #1","HL-60",NA,FALSE,"LSD1 shRNA #1","high",FALSE
+"GSM853034","HL60_shLSD1#2 6105",3.7168582906773,"GSE34726","GPL10558",5,6,"LSD1 shRNA #2","HL-60",NA,FALSE,"LSD1 shRNA #2","high",FALSE
+"GSM853035","HL60_untreated 6110",3.7092546682228,"GSE34726","GPL10558",5,6,"vehicle","HL-60",NA,TRUE,"control","control",FALSE
+"GSM853036","HL60_ATRA 6111",3.7000383291674,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid","HL-60",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853037","HL60_TCP 6112",3.7063642971663,"GSE34726","GPL10558",5,6,"tranycypromine","HL-60",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853038","HL60_ATRA+TCP 6113",3.6453125942294,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","HL-60",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM853039","TEX_untreated 6114",5.10752449794,"GSE34726","GPL10558",5,6,"vehicle","TEX",NA,TRUE,"control","control",FALSE
+"GSM853040","TEX_ATRA 6115",5.057174072533,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid","TEX",NA,FALSE,"all-trans-retinoic acid","high",FALSE
+"GSM853041","TEX_TCP 6116",4.778395054204,"GSE34726","GPL10558",5,6,"tranycypromine","TEX",NA,FALSE,"tranycypromine","high",FALSE
+"GSM853042","TEX_ATRA+TCP 6117",4.848781818146,"GSE34726","GPL10558",5,6,"all-trans-retinoic acid and tranylcypromine","TEX",NA,FALSE,"all-trans-retinoic acid and tranylcypromine","low",FALSE
+"GSM859608","CD45+CD33+CD19-CD3- cells from engrafted AML blasts treated with vehicle, replicate 1",0.2120580637415,"GSE34965","GPL570",6,6,"vehicle","sorted CD45+CD33+CD19-CD3- AML blasts",NA,TRUE,"control","control",FALSE
+"GSM859609","CD45+CD33+CD19-CD3- cells from engrafted AML blasts treated with vehicle, replicate 2",-0.150943176828,"GSE34965","GPL570",6,6,"vehicle","sorted CD45+CD33+CD19-CD3- AML blasts",NA,TRUE,"control","control",FALSE
+"GSM859610","CD45+CD33+CD19-CD3- cells from engrafted AML blasts treated with CWP, replicate 1",-0.0514209203175,"GSE34965","GPL570",6,6,"CWP","sorted CD45+CD33+CD19-CD3- AML blasts",NA,FALSE,"CWP","high",FALSE
+"GSM859611","CD45+CD33+CD19-CD3- cells from engrafted AML blasts treated with CWP, replicate 2",0.563326563298,"GSE34965","GPL570",6,6,"CWP","sorted CD45+CD33+CD19-CD3- AML blasts",NA,FALSE,"CWP","high",FALSE
+"GSM1036389","THP1 untreated replicate 1",3.97000999276707,"GSE42259","GPL570",6,6,"Untreated","THP1",NA,TRUE,"control","control",TRUE
+"GSM1036390","THP1 untreated replicate 2",3.94232330844963,"GSE42259","GPL570",6,6,"Untreated","THP1",NA,TRUE,"control","control",TRUE
+"GSM1036391","THP1 untreated replicate 3",3.87007274482021,"GSE42259","GPL570",6,6,"Untreated","THP1",NA,TRUE,"control","control",TRUE
+"GSM1036392","THP1 Dll4-Fc treated replicate 1",3.59782660154528,"GSE42259","GPL570",6,6,"60nM Dll4-Fc treated","THP1",NA,FALSE,"Dll4-Fc","high",TRUE
+"GSM1036393","THP1 Dll4-Fc treated replicate 2",3.64571666887901,"GSE42259","GPL570",6,6,"60nM Dll4-Fc treated","THP1",NA,FALSE,"Dll4-Fc","high",TRUE
+"GSM1036394","THP1 Dll4-Fc treated replicate 3",3.65036032750938,"GSE42259","GPL570",6,6,"60nM Dll4-Fc treated","THP1",NA,FALSE,"Dll4-Fc","high",TRUE
+"GSM1059539","experiment #1 RNAi",4.9624901847535,"GSE43258","GPL570",6,6,"ATRA",NA,NA,FALSE,"ATRA","high",FALSE
+"GSM1059540","experiment #1 scr",4.9470791557054,"GSE43258","GPL570",6,6,"ATRA",NA,NA,FALSE,"ATRA","high",FALSE
+"GSM1059541","experiment #2 RNAi",4.9696141367029,"GSE43258","GPL570",6,6,"DMSO control",NA,NA,TRUE,"control","control",FALSE
+"GSM1059542","experiment #2 scr",4.9479330656497,"GSE43258","GPL570",6,6,"DMSO control",NA,NA,TRUE,"control","control",FALSE
+"GSM1059543","experiment #3 RNAi",5.0351319933024,"GSE43258","GPL570",6,6,"ATRA",NA,NA,FALSE,"ATRA","high",FALSE
+"GSM1059544","experiment #3 scr",4.9762292315071,"GSE43258","GPL570",6,6,"ATRA",NA,NA,FALSE,"ATRA","high",FALSE
+"GSM1128393","MOLM_DMSO_Replicate1",3.42709164170017,"GSE46302","GPL3921",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",TRUE
+"GSM1128394","MOLM_DMSO_Replicate2",3.460484956594,"GSE46302","GPL3921",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",TRUE
+"GSM1128395","MOLM_DMSO_Replicate3",3.46720747675908,"GSE46302","GPL3921",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",TRUE
+"GSM1128396","MOLM_R406_Replicate1",3.36612061108791,"GSE46302","GPL3921",6,6,"R406","MOLM-14",NA,FALSE,"R406","high",TRUE
+"GSM1128397","MOLM_R406_Replicate2",3.39936387166027,"GSE46302","GPL3921",6,6,"R406","MOLM-14",NA,FALSE,"R406","high",TRUE
+"GSM1128398","MOLM_R406_Replicate3",3.47542915309432,"GSE46302","GPL3921",6,6,"R406","MOLM-14",NA,FALSE,"R406","high",TRUE
+"GSM1128399","U937_DMSO_Replicate1",2.9090737461254,"GSE46302","GPL3921",6,6,"DMSO","U937",NA,TRUE,"control","control",TRUE
+"GSM1128400","U937_DMSO_Replicate2",2.96134984537473,"GSE46302","GPL3921",6,6,"DMSO","U937",NA,TRUE,"control","control",TRUE
+"GSM1128401","U937_DMSO_Replicate3",2.95478200000188,"GSE46302","GPL3921",6,6,"DMSO","U937",NA,TRUE,"control","control",TRUE
+"GSM1128402","U937_R406_Replicate1",2.87545704159979,"GSE46302","GPL3921",6,6,"R406","U937",NA,FALSE,"R406","high",TRUE
+"GSM1128403","U937_R406_Replicate2",2.88548320478637,"GSE46302","GPL3921",6,6,"R406","U937",NA,FALSE,"R406","high",TRUE
+"GSM1128404","U937_R406_Replicate3",2.92616181947135,"GSE46302","GPL3921",6,6,"R406","U937",NA,FALSE,"R406","high",TRUE
+"GSM1128405","HL60_DMSO_Replicate1",2.21795329987829,"GSE46302","GPL3921",6,6,"DMSO","HL-60",NA,TRUE,"control","control",TRUE
+"GSM1128406","HL60_DMSO_Replicate2",2.11919511820042,"GSE46302","GPL3921",6,6,"DMSO","HL-60",NA,TRUE,"control","control",TRUE
+"GSM1128407","HL60_DMSO_Replicate3",2.14841955863608,"GSE46302","GPL3921",6,6,"DMSO","HL-60",NA,TRUE,"control","control",TRUE
+"GSM1128408","HL60_R406_Replicate1",2.29145102091131,"GSE46302","GPL3921",6,6,"R406","HL-60",NA,FALSE,"R406","high",TRUE
+"GSM1128409","HL60_R406_Replicate2",2.28304676686008,"GSE46302","GPL3921",6,6,"R406","HL-60",NA,FALSE,"R406","high",TRUE
+"GSM1128410","HL60_R406_Replicate3",2.2332735511146,"GSE46302","GPL3921",6,6,"R406","HL-60",NA,FALSE,"R406","high",TRUE
+"GSM1128411","KG1_24H_DMSO_Replicate1",4.51611714732801,"GSE46302","GPL3921",6,6,"DMSO","KG-1",NA,TRUE,"control","control",TRUE
+"GSM1128412","KG1_24H_DMSO_Replicate2",4.55779794283533,"GSE46302","GPL3921",6,6,"DMSO","KG-1",NA,TRUE,"control","control",TRUE
+"GSM1128413","KG1_24H_DMSO_Replicate3",4.5927333525609,"GSE46302","GPL3921",6,6,"DMSO","KG-1",NA,TRUE,"control","control",TRUE
+"GSM1128414","KG1_24H_R406_Replicate1",4.29655526211705,"GSE46302","GPL3921",6,6,"R406","KG-1",NA,FALSE,"R406","high",TRUE
+"GSM1128415","KG1_24H_R406_Replicate2",4.21487471858714,"GSE46302","GPL3921",6,6,"R406","KG-1",NA,FALSE,"R406","high",TRUE
+"GSM1128416","KG1_24H_R406_Replicate3",4.29981161941534,"GSE46302","GPL3921",6,6,"R406","KG-1",NA,FALSE,"R406","high",TRUE
+"GSM1138793","AML_16",4.0931807692045,"GSE46819","GPL570",6,6,"untreated",NA,"46,XY,del(13)(q12q14)[20]",TRUE,"control","control",FALSE
+"GSM1138794","AML_2",4.2344957048746,"GSE46819","GPL570",6,6,"untreated",NA,"46,XX[20]",TRUE,"control","control",FALSE
+"GSM1138795","AML_28",3.2692924708067,"GSE46819","GPL570",6,6,"untreated",NA,"46,XX,inv(16)(p13.1q22)[20]",TRUE,"control","control",FALSE
+"GSM1138796","AML_51",3.2226162052689,"GSE46819","GPL570",6,6,"untreated",NA,"46,XX,inv(16)(p13.1q22)[24]",TRUE,"control","control",FALSE
+"GSM1138797","AML_56",3.67749405857,"GSE46819","GPL570",6,6,"untreated",NA,"46,XY[24]",TRUE,"control","control",FALSE
+"GSM1138798","AML_67",3.4819943947596,"GSE46819","GPL570",6,6,"untreated",NA,"46,XX[17]",TRUE,"control","control",FALSE
+"GSM1138799","AML_19",3.8217883043178,"GSE46819","GPL570",6,6,"untreated",NA,"47,XX,+8[19];46,XX[1]",TRUE,"control","control",FALSE
+"GSM1138800","AML_39",4.4584795803743,"GSE46819","GPL570",6,6,"untreated",NA,"47,XY,+11[18];46,XY[2]",TRUE,"control","control",FALSE
+"GSM1138801","AML_12",3.6602509587967,"GSE46819","GPL570",6,6,"untreated",NA,"46,XY[20]",TRUE,"control","control",FALSE
+"GSM1138802","AML_25",3.9701346495363,"GSE46819","GPL570",6,6,"untreated",NA,"47,XX,+21[20]",TRUE,"control","control",FALSE
+"GSM1138803","AML_30",4.578882336789,"GSE46819","GPL570",6,6,"untreated",NA,"46,XX[20]",TRUE,"control","control",FALSE
+"GSM1138804","AML_3",4.52328571107,"GSE46819","GPL570",6,6,"untreated",NA,"46,XY,del(12)(p11p13)[3];46,XY[17]",TRUE,"control","control",FALSE
+"GSM1138805","AML_paired_case_4_BV6",3.2935299317565,"GSE46819","GPL570",6,6,"BV6",NA,"46,XX[20]",FALSE,"BV6","high",FALSE
+"GSM1138806","AML_paired_case_4_DMSO",4.0022449042773,"GSE46819","GPL570",6,6,"DMSO",NA,"46,XX[20]",TRUE,"control","control",FALSE
+"GSM1138807","AML_paired_case_5_BV6",3.1299549998035,"GSE46819","GPL570",6,6,"BV6",NA,"46,XY[20]",FALSE,"BV6","high",FALSE
+"GSM1138808","AML_paired_case_5_DMSO",4.7044448657972,"GSE46819","GPL570",6,6,"DMSO",NA,"46,XY[20]",TRUE,"control","control",FALSE
+"GSM1138809","AML_paired_case_6_BV6",4.4436089160412,"GSE46819","GPL570",6,6,"BV6",NA,"46,XX[20]",FALSE,"BV6","high",FALSE
+"GSM1138810","AML_paired_case_6_DMSO",4.8628434912584,"GSE46819","GPL570",6,6,"DMSO",NA,"46,XX[20]",TRUE,"control","control",FALSE
+"GSM1138811","AML_paired_case_1_BV6",4.4353555439158,"GSE46819","GPL570",6,6,"BV6",NA,"46,XY[20]",FALSE,"BV6","high",FALSE
+"GSM1138812","AML_paired_case_1_DMSO",4.4857134468439,"GSE46819","GPL570",6,6,"DMSO",NA,"46,XY[20]",TRUE,"control","control",FALSE
+"GSM1138813","AML_paired_case_2_BV6",4.0460334490762,"GSE46819","GPL570",6,6,"BV6",NA,"na",FALSE,"BV6","high",FALSE
+"GSM1138814","AML_paired_case_2_DMSO",4.1463484021027,"GSE46819","GPL570",6,6,"DMSO",NA,"na",TRUE,"control","control",FALSE
+"GSM1138815","AML_paired_case_3_BV6",4.4021884750552,"GSE46819","GPL570",6,6,"BV6",NA,"45,XY,inv(3)(q21q26.2),-7[20]",FALSE,"BV6","high",FALSE
+"GSM1138816","AML_paired_case_3_DMSO",4.4143029150423,"GSE46819","GPL570",6,6,"DMSO",NA,"45,XY,inv(3)(q21q26.2),-7[20]",TRUE,"control","control",FALSE
+"GSM1325408","NB4 Control 6h rep1",4.0049750960651,"GSE54869","GPL6104",5,6,"none","NB4",NA,TRUE,"control","control",FALSE
+"GSM1325409","NB4 MS 6h rep1",4.2776148553332,"GSE54869","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","NB4",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325410","NB4 SAHA 6h rep1",4.0402457694221,"GSE54869","GPL6104",5,6,"SAHA (Merck)","NB4",NA,FALSE,"SAHA","high",FALSE
+"GSM1325411","K562 Control 6h rep1",4.1327261742627,"GSE54869","GPL6104",5,6,"none","K562",NA,TRUE,"control","control",FALSE
+"GSM1325412","K562 MS 6h rep1",4.579714725366,"GSE54869","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","K562",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325413","K562 SAHA 6h rep1",4.3285212378489,"GSE54869","GPL6104",5,6,"SAHA (Merck)","K562",NA,FALSE,"SAHA","high",FALSE
+"GSM1325414","U937 Control 6h rep1",3.7205870713714,"GSE54869","GPL6104",5,6,"none","U937",NA,TRUE,"control","control",FALSE
+"GSM1325415","U937 MS 6h rep1",3.6962953430561,"GSE54869","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","U937",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325416","U937 SAHA 6h rep1",3.6951930338867,"GSE54869","GPL6104",5,6,"SAHA (Merck)","U937",NA,FALSE,"SAHA","high",FALSE
+"GSM1325425","NB4 Control 6h rep2",3.7460191328544,"GSE54871","GPL6104",5,6,"control","NB4",NA,TRUE,"control","control",FALSE
+"GSM1325426","NB4 MS 6h rep2",3.9845246898613,"GSE54871","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","NB4",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325427","NB4 SAHA 6h rep2",3.7784606167909,"GSE54871","GPL6104",5,6,"SAHA (Merck)","NB4",NA,FALSE,"SAHA","high",FALSE
+"GSM1325428","K562 Control 6h rep2",3.8680634763886,"GSE54871","GPL6104",5,6,"control","K562",NA,TRUE,"control","control",FALSE
+"GSM1325429","K562 MS 6h rep2",4.2973264743807,"GSE54871","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","K562",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325430","K562 SAHA 6h rep2",4.0418484144057,"GSE54871","GPL6104",5,6,"SAHA (Merck)","K562",NA,FALSE,"SAHA","high",FALSE
+"GSM1325431","U937 Control 6h rep2",3.4591816224462,"GSE54871","GPL6104",5,6,"control","U937",NA,TRUE,"control","control",FALSE
+"GSM1325432","U937 MS 6h rep2",3.4428607422691,"GSE54871","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","U937",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325433","U937 SAHA 6h rep2",3.3929539470111,"GSE54871","GPL6104",5,6,"SAHA (Merck)","U937",NA,FALSE,"SAHA","high",FALSE
+"GSM1325434","patient 75 control",3.7116815152032,"GSE54871","GPL6104",5,6,"control","AML blasts",NA,TRUE,"control","control",FALSE
+"GSM1325435","patient 75 saha",3.402816060575,"GSE54871","GPL6104",5,6,"SAHA (Merck)","AML blasts",NA,FALSE,"SAHA","high",FALSE
+"GSM1325436","patient 117 control",3.9108700042929,"GSE54871","GPL6104",5,6,"control","AML blasts",NA,TRUE,"control","control",FALSE
+"GSM1325437","patient 117 saha",4.460476183904,"GSE54871","GPL6104",5,6,"SAHA (Merck)","AML blasts",NA,FALSE,"SAHA","high",FALSE
+"GSM1325438","patient 125 control",3.4633800098759,"GSE54871","GPL6104",5,6,"control","AML blasts",NA,TRUE,"control","control",FALSE
+"GSM1325439","patient 125 saha",3.5276556453248,"GSE54871","GPL6104",5,6,"SAHA (Merck)","AML blasts",NA,FALSE,"SAHA","high",FALSE
+"GSM1325452","Control CD34 rep1",3.7970292797242,"GSE54873","GPL6883",5,6,"none","cd34+ normal progenitors",NA,TRUE,"control","control",FALSE
+"GSM1325453","Saha CD34 rep1",3.7641711730963,"GSE54873","GPL6883",5,6,"SAHA (Merck)","cd34+ normal progenitors",NA,FALSE,"SAHA","high",FALSE
+"GSM1325454","Control CD34 rep2",3.8723297404889,"GSE54873","GPL6883",5,6,"none","cd34+ normal progenitors",NA,TRUE,"control","control",FALSE
+"GSM1325455","Saha CD34 rep2",3.6956108905886,"GSE54873","GPL6883",5,6,"SAHA (Merck)","cd34+ normal progenitors",NA,FALSE,"SAHA","high",FALSE
+"GSM1325456","Pz 178 CTR",5.464521189485,"GSE54873","GPL6883",5,6,"none","blasts of AML patient",NA,TRUE,"control","control",FALSE
+"GSM1325457","Pz 178 SAHA",5.674551696883,"GSE54873","GPL6883",5,6,"SAHA (Merck)","blasts of AML patient",NA,FALSE,"SAHA","high",FALSE
+"GSM1325458","Pz 182 CTR",4.272123073483,"GSE54873","GPL6883",5,6,"none","blasts of AML patient",NA,TRUE,"control","control",FALSE
+"GSM1325459","Pz 182 SAHA",4.4781009942977,"GSE54873","GPL6883",5,6,"SAHA (Merck)","blasts of AML patient",NA,FALSE,"SAHA","high",FALSE
+"GSM1325460","Pz 183 CTR",4.131079514781,"GSE54873","GPL6883",5,6,"none","blasts of AML patient",NA,TRUE,"control","control",FALSE
+"GSM1325461","Pz 183 SAHA",4.1930635201833,"GSE54873","GPL6883",5,6,"SAHA (Merck)","blasts of AML patient",NA,FALSE,"SAHA","high",FALSE
+"GSM1325462","Pz 184 CTR",5.367428814978,"GSE54873","GPL6883",5,6,"none","blasts of AML patient",NA,TRUE,"control","control",FALSE
+"GSM1325463","Pz 184 SAHA",4.9223689791704,"GSE54873","GPL6883",5,6,"SAHA (Merck)","blasts of AML patient",NA,FALSE,"SAHA","high",FALSE
+"GSM1325464","Pz 189 CTR",4.887006041769,"GSE54873","GPL6883",5,6,"none","blasts of AML patient",NA,TRUE,"control","control",FALSE
+"GSM1325465","Pz 189 SAHA",4.6405493609863,"GSE54873","GPL6883",5,6,"SAHA (Merck)","blasts of AML patient",NA,FALSE,"SAHA","high",FALSE
+"GSM1325408","NB4 Control 6h rep1",4.0049750960651,"GSE55154","GPL6104",5,6,"none","NB4",NA,TRUE,"control","control",FALSE
+"GSM1325409","NB4 MS 6h rep1",4.2776148553332,"GSE55154","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","NB4",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325410","NB4 SAHA 6h rep1",4.0402457694221,"GSE55154","GPL6104",5,6,"SAHA (Merck)","NB4",NA,FALSE,"SAHA","high",FALSE
+"GSM1325411","K562 Control 6h rep1",4.1327261742627,"GSE55154","GPL6104",5,6,"none","K562",NA,TRUE,"control","control",FALSE
+"GSM1325412","K562 MS 6h rep1",4.579714725366,"GSE55154","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","K562",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325413","K562 SAHA 6h rep1",4.3285212378489,"GSE55154","GPL6104",5,6,"SAHA (Merck)","K562",NA,FALSE,"SAHA","high",FALSE
+"GSM1325414","U937 Control 6h rep1",3.7205870713714,"GSE55154","GPL6104",5,6,"none","U937",NA,TRUE,"control","control",FALSE
+"GSM1325415","U937 MS 6h rep1",3.6962953430561,"GSE55154","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","U937",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325416","U937 SAHA 6h rep1",3.6951930338867,"GSE55154","GPL6104",5,6,"SAHA (Merck)","U937",NA,FALSE,"SAHA","high",FALSE
+"GSM1325425","NB4 Control 6h rep2",3.7455497935149,"GSE55154","GPL6104",5,6,"control","NB4",NA,TRUE,"control","control",FALSE
+"GSM1325426","NB4 MS 6h rep2",3.9884160940429,"GSE55154","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","NB4",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325427","NB4 SAHA 6h rep2",3.786158475244,"GSE55154","GPL6104",5,6,"SAHA (Merck)","NB4",NA,FALSE,"SAHA","high",FALSE
+"GSM1325428","K562 Control 6h rep2",3.8718594636133,"GSE55154","GPL6104",5,6,"control","K562",NA,TRUE,"control","control",FALSE
+"GSM1325429","K562 MS 6h rep2",4.3008153035394,"GSE55154","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","K562",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325430","K562 SAHA 6h rep2",4.0466098267785,"GSE55154","GPL6104",5,6,"SAHA (Merck)","K562",NA,FALSE,"SAHA","high",FALSE
+"GSM1325431","U937 Control 6h rep2",3.4668822382572,"GSE55154","GPL6104",5,6,"control","U937",NA,TRUE,"control","control",FALSE
+"GSM1325432","U937 MS 6h rep2",3.4453645264921,"GSE55154","GPL6104",5,6,"MS27-275 (Bayer-Schering AG)","U937",NA,FALSE,"MS27-275","high",FALSE
+"GSM1325433","U937 SAHA 6h rep2",3.4001560525755,"GSE55154","GPL6104",5,6,"SAHA (Merck)","U937",NA,FALSE,"SAHA","high",FALSE
+"GSM1325434","patient 75 control",3.6810255561066,"GSE55154","GPL6104",5,6,"control","AML blasts",NA,TRUE,"control","control",FALSE
+"GSM1325435","patient 75 saha",3.4050234268658,"GSE55154","GPL6104",5,6,"SAHA (Merck)","AML blasts",NA,FALSE,"SAHA","high",FALSE
+"GSM1325436","patient 117 control",3.8678428267506,"GSE55154","GPL6104",5,6,"control","AML blasts",NA,TRUE,"control","control",FALSE
+"GSM1325437","patient 117 saha",4.4483235293819,"GSE55154","GPL6104",5,6,"SAHA (Merck)","AML blasts",NA,FALSE,"SAHA","high",FALSE
+"GSM1325438","patient 125 control",3.4670336533319,"GSE55154","GPL6104",5,6,"control","AML blasts",NA,TRUE,"control","control",FALSE
+"GSM1325439","patient 125 saha",3.5311668685922,"GSE55154","GPL6104",5,6,"SAHA (Merck)","AML blasts",NA,FALSE,"SAHA","high",FALSE
+"GSM1528447","23_20h_BV6",2.8102690024747,"GSE62533","GPL570",6,6,"BV6",NA,"normal",FALSE,"BV6","high",FALSE
+"GSM1528448","23_20h_D",2.9157309782706,"GSE62533","GPL570",6,6,"DMSO",NA,"normal",TRUE,"control","control",FALSE
+"GSM1528449","23_4h_BV6",2.8521365658678,"GSE62533","GPL570",6,6,"BV6",NA,"normal",FALSE,"BV6","high",FALSE
+"GSM1528450","23_4h_D",2.8937396337188,"GSE62533","GPL570",6,6,"DMSO",NA,"normal",TRUE,"control","control",FALSE
+"GSM1528451","44_20h_BV6",2.8847207959479,"GSE62533","GPL570",6,6,"BV6",NA,"13q- bidel",FALSE,"BV6","high",FALSE
+"GSM1528452","44_20h_D",2.875389385614,"GSE62533","GPL570",6,6,"DMSO",NA,"13q- bidel",TRUE,"control","control",FALSE
+"GSM1528453","50_20h_BV6",3.0764315620866,"GSE62533","GPL570",6,6,"BV6",NA,"13q-",FALSE,"BV6","high",FALSE
+"GSM1528454","50_20h_D",3.028731666149,"GSE62533","GPL570",6,6,"DMSO",NA,"13q-",TRUE,"control","control",FALSE
+"GSM1528455","50_4h_BV6",3.0403975022587,"GSE62533","GPL570",6,6,"BV6",NA,"13q-",FALSE,"BV6","high",FALSE
+"GSM1528456","50_4h_D",3.0316999694752,"GSE62533","GPL570",6,6,"DMSO",NA,"13q-",TRUE,"control","control",FALSE
+"GSM1528457","51_4h_BV6",3.069791600611,"GSE62533","GPL570",6,6,"BV6",NA,"13q-, 14q-",FALSE,"BV6","high",FALSE
+"GSM1528458","51_4h_D",3.0860184733681,"GSE62533","GPL570",6,6,"DMSO",NA,"13q-, 14q-",TRUE,"control","control",FALSE
+"GSM1585803","K562_DMSO_3hrs_rep1",4.058227092342,"GSE65012","GPL570",6,6,"DMSO","K562",NA,TRUE,"control","control",FALSE
+"GSM1585804","K562_DMSO_3hrs_rep2",4.0599560024842,"GSE65012","GPL570",6,6,"DMSO","K562",NA,TRUE,"control","control",FALSE
+"GSM1585805","K562_DMSO_3hrs_rep3",4.0503845562373,"GSE65012","GPL570",6,6,"DMSO","K562",NA,TRUE,"control","control",FALSE
+"GSM1585806","K562_CA_3hrs_rep1",4.0129034966018,"GSE65012","GPL570",6,6,"25nM CA for 3hrs","K562",NA,FALSE,"CA","high",FALSE
+"GSM1585807","K562_CA_3hrs_rep2",4.0770138602486,"GSE65012","GPL570",6,6,"25nM CA for 3hrs","K562",NA,FALSE,"CA","high",FALSE
+"GSM1585808","K562_CA_3hrs_rep3",4.0352092256675,"GSE65012","GPL570",6,6,"25nM CA for 3hrs","K562",NA,FALSE,"CA","high",FALSE
+"GSM1585875","MOLM14_DMSO_24hrs_rep1",4.6911396807423,"GSE65014","GPL570",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM1585876","MOLM14_DMSO_24hrs_rep2",4.6671409111024,"GSE65014","GPL570",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM1585877","MOLM14_DMSO_24hrs_rep3",4.7193806506096,"GSE65014","GPL570",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM1585878","MOLM14_CA_24hrs_rep1",4.7849034478365,"GSE65014","GPL570",6,6,"10nM CA for 24hrs","MOLM-14",NA,FALSE,"CA","high",FALSE
+"GSM1585879","MOLM14_CA_24hrs_rep2",4.791913874655,"GSE65014","GPL570",6,6,"10nM CA for 24hrs","MOLM-14",NA,FALSE,"CA","high",FALSE
+"GSM1585880","MOLM14_CA_24hrs_rep3",4.7773584063132,"GSE65014","GPL570",6,6,"10nM CA for 24hrs","MOLM-14",NA,FALSE,"CA","high",FALSE
+"GSM1585881","MOLM14_DMSO_3hrs_rep1",4.6036543923395,"GSE65015","GPL570",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM1585882","MOLM14_DMSO_3hrs_rep2",4.6382229814869,"GSE65015","GPL570",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM1585883","MOLM14_DMSO_3hrs_rep3",4.6731584679552,"GSE65015","GPL570",6,6,"DMSO","MOLM-14",NA,TRUE,"control","control",FALSE
+"GSM1585884","MOLM14_CA_3hrs_rep1",4.6831000434029,"GSE65015","GPL570",6,6,"25nM CA for 3hrs","MOLM-14",NA,FALSE,"CA","high",FALSE
+"GSM1585885","MOLM14_CA_3hrs_rep2",4.6596881274762,"GSE65015","GPL570",6,6,"25nM CA for 3hrs","MOLM-14",NA,FALSE,"CA","high",FALSE
+"GSM1585886","MOLM14_CA_3hrs_rep3",4.6768706591509,"GSE65015","GPL570",6,6,"25nM CA for 3hrs","MOLM-14",NA,FALSE,"CA","high",FALSE
+"GSM1585924","MV411_DMSO_3hrs_rep1",3.2048467025605,"GSE65019","GPL570",6,6,"DMSO","MV-4-11",NA,TRUE,"control","control",FALSE
+"GSM1585925","MV411_DMSO_3hrs_rep2",3.2289030428805,"GSE65019","GPL570",6,6,"DMSO","MV-4-11",NA,TRUE,"control","control",FALSE
+"GSM1585926","MV411_DMSO_3hrs_rep3",3.228790006299,"GSE65019","GPL570",6,6,"DMSO","MV-4-11",NA,TRUE,"control","control",FALSE
+"GSM1585927","MV411_CA_3hrs_rep1",3.2225902521982,"GSE65019","GPL570",6,6,"25nM CA for 3hrs","MV-4-11",NA,FALSE,"CA","high",FALSE
+"GSM1585928","MV411_CA_3hrs_rep2",3.2776273731497,"GSE65019","GPL570",6,6,"25nM CA for 3hrs","MV-4-11",NA,FALSE,"CA","high",FALSE
+"GSM1585929","MV411_CA_3hrs_rep3",3.2644939725569,"GSE65019","GPL570",6,6,"25nM CA for 3hrs","MV-4-11",NA,FALSE,"CA","high",FALSE
+"GSM2204241","Vehicle replicate 1",4.83086105350204,"GSE83485","GPL570",6,6,"vehicle","sorted human CD45+ cells from bone marrow of PDX mouse",NA,TRUE,"control","control",TRUE
+"GSM2204242","Vehicle replicate 2",4.87701271734755,"GSE83485","GPL570",6,6,"vehicle","sorted human CD45+ cells from bone marrow of PDX mouse",NA,TRUE,"control","control",TRUE
+"GSM2204243","Vehicle replicate 3",4.7620065780316,"GSE83485","GPL570",6,6,"vehicle","sorted human CD45+ cells from bone marrow of PDX mouse",NA,TRUE,"control","control",TRUE
+"GSM2204244","BAY1436032 replicate 1",3.62989394350164,"GSE83485","GPL570",6,6,"BAY1436032","sorted human CD45+ cells from bone marrow of PDX mouse",NA,FALSE,"BAY1436032","high",TRUE
+"GSM2204245","BAY1436032 replicate 2",3.3790047526923,"GSE83485","GPL570",6,6,"BAY1436032","sorted human CD45+ cells from bone marrow of PDX mouse",NA,FALSE,"BAY1436032","high",TRUE
+"GSM2204246","BAY1436032 replicate 3",3.38170010749252,"GSE83485","GPL570",6,6,"BAY1436032","sorted human CD45+ cells from bone marrow of PDX mouse",NA,FALSE,"BAY1436032","high",TRUE
+"GSM2334750","HEL92.1.7 DMSO rep1",4.49137245072587,"GSE87580","GPL16699",6,6,"DMSO","HEL92.1.7",NA,TRUE,"control","control",TRUE
+"GSM2334751","HEL92.1.7 DMSO rep2",4.49643896110008,"GSE87580","GPL16699",6,6,"DMSO","HEL92.1.7",NA,TRUE,"control","control",TRUE
+"GSM2334752","HEL92.1.7 DMSO rep3",4.49745066315578,"GSE87580","GPL16699",6,6,"DMSO","HEL92.1.7",NA,TRUE,"control","control",TRUE
+"GSM2334753","HEL92.1.7 T-3775440 rep1",4.51312427299515,"GSE87580","GPL16699",6,6,"100 nM of T-3775440","HEL92.1.7",NA,FALSE,"T-3775440","high",TRUE
+"GSM2334754","HEL92.1.7 T-3775440 rep2",4.54544111380975,"GSE87580","GPL16699",6,6,"100 nM of T-3775440","HEL92.1.7",NA,FALSE,"T-3775440","high",TRUE
+"GSM2334755","HEL92.1.7 T-3775440 rep3",4.54479642991822,"GSE87580","GPL16699",6,6,"100 nM of T-3775440","HEL92.1.7",NA,FALSE,"T-3775440","high",TRUE
+"GSM2334756","CMK11-5 DMSO rep1",4.43808403445232,"GSE87580","GPL16699",6,6,"DMSO","CMK11-5",NA,TRUE,"control","control",TRUE
+"GSM2334757","CMK11-5 DMSO rep2",4.43120575221049,"GSE87580","GPL16699",6,6,"DMSO","CMK11-5",NA,TRUE,"control","control",TRUE
+"GSM2334758","CMK11-5 DMSO rep3",4.44436724479193,"GSE87580","GPL16699",6,6,"DMSO","CMK11-5",NA,TRUE,"control","control",TRUE
+"GSM2334759","CMK11-5 T-3775440 rep1",4.4124320385996,"GSE87580","GPL16699",6,6,"100 nM of T-3775440","CMK11-5",NA,FALSE,"T-3775440","high",TRUE
+"GSM2334760","CMK11-5 T-3775440 rep2",4.39296146304162,"GSE87580","GPL16699",6,6,"100 nM of T-3775440","CMK11-5",NA,FALSE,"T-3775440","high",TRUE
+"GSM2334761","CMK11-5 T-3775440 rep3",4.39325037188496,"GSE87580","GPL16699",6,6,"100 nM of T-3775440","CMK11-5",NA,FALSE,"T-3775440","high",TRUE
+"GSM2385847","DMSO rep1",4.75242592799092,"GSE89637","GPL16699",6,6,"DMSO","AML cell line",NA,TRUE,"control","control",TRUE
+"GSM2385848","DMSO rep2",4.73700026348078,"GSE89637","GPL16699",6,6,"DMSO","AML cell line",NA,TRUE,"control","control",TRUE
+"GSM2385849","T-3775440 50 nM rep1",4.88393801109597,"GSE89637","GPL16699",6,6,"T-3775440 50 nM","AML cell line",NA,FALSE,"T-3775440","high",TRUE
+"GSM2385850","T-3775440 50 nM rep2",4.87030023168392,"GSE89637","GPL16699",6,6,"T-3775440 50 nM","AML cell line",NA,FALSE,"T-3775440","high",TRUE
+"GSM2385851","Pevonedistat 1000 nM rep1",4.3812323519075,"GSE89637","GPL16699",6,6,"Pevonedistat 1000 nM","AML cell line",NA,FALSE,"Pevonedistat","high",TRUE
+"GSM2385852","Pevonedistat 1000 nM rep2",4.36351728149139,"GSE89637","GPL16699",6,6,"Pevonedistat 1000 nM","AML cell line",NA,FALSE,"Pevonedistat","high",TRUE
+"GSM2385853","T-3775440+Pevonedistat rep1",4.55575017021365,"GSE89637","GPL16699",6,6,"T-3775440+Pevonedistat","AML cell line",NA,FALSE,"T-3775440+Pevonedistat","high",TRUE
+"GSM2385854","T-3775440+Pevonedistat rep2",4.56754857275647,"GSE89637","GPL16699",6,6,"T-3775440+Pevonedistat","AML cell line",NA,FALSE,"T-3775440+Pevonedistat","high",TRUE
+"GSM2561790","Kasumi-1_Treated_1",3.8090981406831,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","Kasumi-1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561791","Kasumi-1_Treated_2",3.7390820033664,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","Kasumi-1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561792","Kasumi-1_Treated_3",3.7433302425455,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","Kasumi-1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561793","Kasumi-1_Vehicle_2",3.976272029615,"GSE97331","GPL15207",6,6,"DMSO","Kasumi-1",NA,TRUE,"control","control",FALSE
+"GSM2561794","Kasumi-1_Vehicle_3",3.8254779529867,"GSE97331","GPL15207",6,6,"DMSO","Kasumi-1",NA,TRUE,"control","control",FALSE
+"GSM2561795","MV-4-11_Treated_1",3.7092921767959,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","MV-4-11",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561796","MV-4-11_Treated_2",3.7066915375915,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","MV-4-11",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561797","MV-4-11_Treated_3",3.7224638605137,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","MV-4-11",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561798","MV-4-11_Vehicle_1",3.7749961344948,"GSE97331","GPL15207",6,6,"DMSO","MV-4-11",NA,TRUE,"control","control",FALSE
+"GSM2561799","MV-4-11_Vehicle_2",3.7303257206791,"GSE97331","GPL15207",6,6,"DMSO","MV-4-11",NA,TRUE,"control","control",FALSE
+"GSM2561800","MV-4-11_Vehicle_3",3.7596806794987,"GSE97331","GPL15207",6,6,"DMSO","MV-4-11",NA,TRUE,"control","control",FALSE
+"GSM2561801","NOMO-1_Treated_1",4.551561231911,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","NOMO-1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561802","NOMO-1_Treated_2",4.5414115679413,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","NOMO-1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561803","NOMO-1_Treated_3",4.5065481455344,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","NOMO-1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561804","NOMO-1_Vehicle_1",4.5533596030837,"GSE97331","GPL15207",6,6,"DMSO","NOMO-1",NA,TRUE,"control","control",FALSE
+"GSM2561805","NOMO-1_Vehicle_2",4.5665411965836,"GSE97331","GPL15207",6,6,"DMSO","NOMO-1",NA,TRUE,"control","control",FALSE
+"GSM2561806","NOMO-1_Vehicle_3",4.4489763752915,"GSE97331","GPL15207",6,6,"DMSO","NOMO-1",NA,TRUE,"control","control",FALSE
+"GSM2561807","KG-1a_Treated_1",5.1518585970162,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","KG-1a",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561808","KG-1a_Treated_2",5.1810843084781,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","KG-1a",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561809","KG-1a_Treated_3",5.2025722272874,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","KG-1a",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561810","KG-1a_Vehicle_1",5.3255347229278,"GSE97331","GPL15207",6,6,"DMSO","KG-1a",NA,TRUE,"control","control",FALSE
+"GSM2561811","KG-1a_Vehicle_2",5.2701756315563,"GSE97331","GPL15207",6,6,"DMSO","KG-1a",NA,TRUE,"control","control",FALSE
+"GSM2561812","OCI-AML3_Treated_1",2.8899747029555,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","OCI-AML3",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561813","OCI-AML3_Treated_2",2.9190184794651,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","OCI-AML3",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561814","OCI-AML3_Treated_3",2.8338750561017,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","OCI-AML3",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561815","OCI-AML3_Vehicle_1",3.0113284316137,"GSE97331","GPL15207",6,6,"DMSO","OCI-AML3",NA,TRUE,"control","control",FALSE
+"GSM2561816","OCI-AML3_Vehicle_2",3.0979007284323,"GSE97331","GPL15207",6,6,"DMSO","OCI-AML3",NA,TRUE,"control","control",FALSE
+"GSM2561817","OCI-AML3_Vehicle_3",2.9970032744696,"GSE97331","GPL15207",6,6,"DMSO","OCI-AML3",NA,TRUE,"control","control",FALSE
+"GSM2561818","OCI-M1_Treated_1",4.1176000444754,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","OCI-M1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561819","OCI-M1_Treated_2",4.1829309247636,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","OCI-M1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561820","OCI-M1_Treated_3",4.2088784841035,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","OCI-M1",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561821","OCI-M1_Vehicle_1",4.0940961015013,"GSE97331","GPL15207",6,6,"DMSO","OCI-M1",NA,TRUE,"control","control",FALSE
+"GSM2561822","OCI-M1_Vehicle_2",4.1575426049501,"GSE97331","GPL15207",6,6,"DMSO","OCI-M1",NA,TRUE,"control","control",FALSE
+"GSM2561823","OCI-M1_Vehicle_3",4.1769973941276,"GSE97331","GPL15207",6,6,"DMSO","OCI-M1",NA,TRUE,"control","control",FALSE
+"GSM2561824","Sig-M5_Treated_1",2.8046997597265,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","Sig-M5",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561825","Sig-M5_Treated_2",2.6086088253348,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","Sig-M5",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561826","Sig-M5_Treated_3",2.6865808809432,"GSE97331","GPL15207",6,6,"SY-1425 (tamibarotene)","Sig-M5",NA,FALSE,"SY-1425","high",FALSE
+"GSM2561827","Sig-M5_Vehicle_1",2.8343638826379,"GSE97331","GPL15207",6,6,"DMSO","Sig-M5",NA,TRUE,"control","control",FALSE
+"GSM2561828","Sig-M5_Vehicle_2",2.9651824651972,"GSE97331","GPL15207",6,6,"DMSO","Sig-M5",NA,TRUE,"control","control",FALSE

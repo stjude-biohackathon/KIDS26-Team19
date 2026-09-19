@@ -1,0 +1,5 @@
+"GSM","Score","GSE","Platform","GenesFound","GenesExpected","SampleTitle","Characteristics","LibSize","TreatmentRaw","CellLine","Genotype","IsControl","Agent","AgentConfidence"
+"GSM6721363",1.58093204350796,"GSE217540","NCBI-counts",6,6,"697 DMSO, rep1","cell line: 697 | cell type: B-ALL cells | treatment: DMSO",18761759,"DMSO","697",NA,TRUE,"control","control"
+"GSM6721364",1.5965723464704,"GSE217540","NCBI-counts",6,6,"697 DMSO, rep2","cell line: 697 | cell type: B-ALL cells | treatment: DMSO",19388903,"DMSO","697",NA,TRUE,"control","control"
+"GSM6721365",1.4779509348365,"GSE217540","NCBI-counts",6,6,"697 MZ1, rep1","cell line: 697 | cell type: B-ALL cells | treatment: MZ1",17033663,"MZ1","697",NA,FALSE,"MZ1","high"
+"GSM6721366",1.51886536206331,"GSE217540","NCBI-counts",6,6,"697 MZ1, rep2","cell line: 697 | cell type: B-ALL cells | treatment: MZ1",16692647,"MZ1","697",NA,FALSE,"MZ1","high"

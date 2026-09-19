@@ -1,0 +1,4 @@
+"GSM","Score","GSE","Platform","GenesFound","GenesExpected","SampleTitle","Characteristics","LibSize","TreatmentRaw","CellLine","Genotype","IsControl","Agent","AgentConfidence"
+"GSM7324988",1.73178203590801,"GSE232294","NCBI-counts",6,6,"NB4 cells, DMSO, 24h, replicate2","cell line: NB4 | cell type: Acute promyelocytic leukemia cells | treatment: DMSO",26475048,"DMSO","NB4",NA,TRUE,"control","control"
+"GSM7324989",1.50267092344903,"GSE232294","NCBI-counts",6,6,"NB4 cells, JQ1, 24h, replicate1","cell line: NB4 | cell type: Acute promyelocytic leukemia cells | treatment: JQ1",30061376,"JQ1","NB4",NA,FALSE,"JQ1","high"
+"GSM7324990",1.49874523430308,"GSE232294","NCBI-counts",6,6,"NB4 cells, JQ1, 24h, replicate2","cell line: NB4 | cell type: Acute promyelocytic leukemia cells | treatment: JQ1",26937366,"JQ1","NB4",NA,FALSE,"JQ1","high"

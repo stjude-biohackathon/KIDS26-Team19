@@ -1,0 +1,8 @@
+"GSM","Score","GSE","Platform","GenesFound","GenesExpected","SampleTitle","Characteristics","LibSize","TreatmentRaw","CellLine","Genotype","IsControl","Agent","AgentConfidence"
+"GSM7228804",1.75059264084113,"GSE230589","NCBI-counts",6,6,"DND_ACBI_8H_Rep1","cell line: T-ALL | treatment: ACBI-1 | time: 8Hour",21906487,"ACBI-1","T-ALL",NA,FALSE,"ACBI-1","high"
+"GSM7228805",1.77004493510938,"GSE230589","NCBI-counts",6,6,"DND_ACBI_8H_Rep2","cell line: T-ALL | treatment: ACBI-1 | time: 8Hour",21644682,"ACBI-1","T-ALL",NA,FALSE,"ACBI-1","high"
+"GSM7228806",2.06006990726083,"GSE230589","NCBI-counts",6,6,"DND_DMSO_8H_Rep1","cell line: T-ALL | treatment: DMSO | time: 8Hour",21929781,"DMSO","T-ALL",NA,TRUE,"control","control"
+"GSM7228807",2.06072851962883,"GSE230589","NCBI-counts",6,6,"DND_DMSO_8H_Rep2","cell line: T-ALL | treatment: DMSO | time: 8Hour",21897375,"DMSO","T-ALL",NA,TRUE,"control","control"
+"GSM7228808",1.48019360028154,"GSE230589","NCBI-counts",6,6,"MOLT4_ACBI_8H_Rep1","cell line: T-ALL | treatment: ACBI-1 | time: 8Hour",21988987,"ACBI-1","T-ALL",NA,FALSE,"ACBI-1","high"
+"GSM7228809",1.38714143796494,"GSE230589","NCBI-counts",6,6,"MOLT4_ACBI_8H_Rep2","cell line: T-ALL | treatment: ACBI-1 | time: 8Hour",22004005,"ACBI-1","T-ALL",NA,FALSE,"ACBI-1","high"
+"GSM7228811",1.70136111581824,"GSE230589","NCBI-counts",6,6,"MOLT4_DMSO_8H_Rep2","cell line: T-ALL | treatment: DMSO | time: 8Hour",22042725,"DMSO","T-ALL",NA,TRUE,"control","control"

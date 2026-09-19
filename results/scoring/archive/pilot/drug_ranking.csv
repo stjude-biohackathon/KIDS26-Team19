@@ -1,0 +1,21 @@
+"Stratum","GSE","CellLine","Agent","Context","nTreated","nControl","DeltaZ","Confidence","Log2Applied"
+"GSE144638 / NOMO-1","GSE144638","NOMO-1","Pinometostat","MLL rearranged",2,2,-3.54,"high",FALSE
+"GSE144638 / THP-1","GSE144638","THP-1","Pinometostat","MLL rearranged",2,2,-2.288,"high",FALSE
+"GSE144638 / MV4-11","GSE144638","MV4-11","Pinometostat","MLL rearranged",2,2,-0.486,"high",FALSE
+"GSE155640 / NfsB-positive THP1 cells","GSE155640","NfsB-positive THP1 cells","LSD1 OG86","NfsB-positive",6,9,-0.474,"high",TRUE
+"GSE144638 / OCI-AML3","GSE144638","OCI-AML3","Pinometostat","MLL wild type",2,2,-0.461,"high",FALSE
+"GSE144638 / MOLM-13","GSE144638","MOLM-13","Pinometostat","MLL rearranged",2,2,-0.44,"high",FALSE
+"GSE123207 / HNT-34","GSE123207","HNT-34","AZA",NA,2,2,-0.276,"high",FALSE
+"GSE123207 / AML-193","GSE123207","AML-193","AZA",NA,2,2,-0.255,"high",FALSE
+"GSE155640 / NfsB-positive THP1 cells","GSE155640","NfsB-positive THP1 cells","NTR LSD1","NfsB-positive",6,9,-0.228,"high",TRUE
+"GSE134742 / NOMO1","GSE134742","NOMO1","GSK3484862",NA,2,2,-0.191,"high",FALSE
+"GSE134742 / MV411","GSE134742","MV411","GSK3510477",NA,2,2,-0.117,"high",FALSE
+"GSE134742 / MV411","GSE134742","MV411","DAC",NA,2,2,-0.036,"high",FALSE
+"GSE144638 / U-937","GSE144638","U-937","Pinometostat","MLL wild type",2,2,-0.02,"high",FALSE
+"GSE134742 / MV411","GSE134742","MV411","GSK3484862",NA,2,2,-0.007,"high",FALSE
+"GSE123207 / KG1a","GSE123207","KG1a","AZA",NA,2,2,0.059,"high",FALSE
+"GSE134742 / THP1","GSE134742","THP1","GSK3484862",NA,2,2,0.067,"high",FALSE
+"GSE123207 / HL60","GSE123207","HL60","AZA",NA,2,2,0.071,"high",FALSE
+"GSE144638 / HL-60","GSE144638","HL-60","Pinometostat","MLL wild type",2,2,0.206,"high",FALSE
+"GSE155640 / THP1 wild-type cells","GSE155640","THP1 wild-type cells","NTR LSD1","wild type",6,9,0.223,"high",TRUE
+"GSE155640 / THP1 wild-type cells","GSE155640","THP1 wild-type cells","LSD1 OG86","wild type",6,9,0.501,"high",TRUE
